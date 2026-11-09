@@ -1,0 +1,5074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=13302964">
+  <link rel="preload" as="image" href="/images/hero_bg.webp" fetchpriority="high">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- area_page_meta_title is set per-area by stage4 -->
+  <title>Artificial Grass for Allen Backyards | Frisco Artificial Turf Pros · +1 (555) 010-0100</title>
+  <meta name="description" content="Allen TX artificial grass for backyard lawns, dog runs and pool strips that hold up to kids and summer heat. Ask us for a written quote on your yard.">
+  <link rel="canonical" href="https://friscoartificialturfpros.com/areas/allen/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Artificial Grass for Allen Backyards | Frisco Artificial Turf Pros · +1 (555) 010-0100">
+  <meta property="og:description" content="Allen TX artificial grass for backyard lawns, dog runs and pool strips that hold up to kids and summer heat. Ask us for a written quote on your yard.">
+  <meta property="og:url" content="https://friscoartificialturfpros.com/areas/allen/">
+  <meta property="og:image" content="https://friscoartificialturfpros.com/images/hero_bg.webp">
+  <meta property="og:type" content="website">
+  <!-- BreadcrumbList schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://friscoartificialturfpros.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Allen", "item": "https://friscoartificialturfpros.com/areas/allen/" }
+    ]
+  }
+  </script>
+  <!-- Item 7: Place schema for this service area (geo + postal + containedInPlace) -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Allen",
+  "containedInPlace": {
+    "@type": "City",
+    "name": "Frisco"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "33.1032",
+    "longitude": "-96.6706"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Allen",
+    "addressRegion": "TX",
+    "postalCode": "75002",
+    "addressCountry": "US"
+  }
+}
+  </script>
+  <style>
+    /* ═══════════════════════════════════════════════════════════════
+   _shared.css — Shared design system injected into every template
+   Injected by stage4_assemble.py via shared_css pre-injection.
+   All design tokens are resolved in the same pass as
+   the rest of the template.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── DESIGN TOKENS ──────────────────────────────────────────────────────────── */
+:root {
+  --color-primary:   #2E5A6E;
+  --color-accent:    #A6CE39;
+  --color-bg:        #F3F6F7;
+  --color-text:      #1B2630;
+  --font-heading:    'Zilla Slab', Georgia, serif;
+  --font-body:       'Public Sans', system-ui, sans-serif;
+  --white:           #ffffff;
+  --border:          #e0dbd2;
+  --text-mid:        #444444;
+  --text-light:      #777777;
+  --shadow-sm:       0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md:       0 4px 20px rgba(0,0,0,0.14);
+  --radius:          4px;
+  --max-w:           1200px;
+  --transition:      0.2s cubic-bezier(0.25, 1, 0.5, 1);
+  /* Density scale — multiplies section padding + key gaps. Driven by
+     Stage 1 design_context.density_scale (compact|comfortable|spacious). */
+  --density-scale:   0.78;
+}
+
+/* ── DESIGN VARIETY: section pattern backgrounds ───────────────────────────────
+   One of these classes is applied to <body> via pattern-band-rule feel-water-notice order-proof-first. Patterns
+   are subtle by design and applied to alternating sections to avoid visual
+   noise. Stage 1 design_context.pattern_style selects which one. */
+
+.pattern-dot-grid .section-pad-accent,
+.pattern-dot-grid .section-pad:nth-of-type(even) {
+  background-image: radial-gradient(circle at 50% 50%, rgba(0,0,0,0.07) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+.pattern-h-lines .section-pad-accent,
+.pattern-h-lines .section-pad:nth-of-type(even) {
+  background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.04), rgba(0,0,0,0.04) 1px, transparent 1px, transparent 18px);
+}
+.pattern-diagonal-hatch .section-pad-accent,
+.pattern-diagonal-hatch .section-pad:nth-of-type(even) {
+  background-image: repeating-linear-gradient(45deg,
+    color-mix(in srgb, var(--color-primary) 8%, transparent),
+    color-mix(in srgb, var(--color-primary) 8%, transparent) 1px,
+    transparent 1px, transparent 12px);
+}
+.pattern-rays .section-pad-accent {
+  background-image: conic-gradient(from 0deg at 50% 100%,
+    transparent 0deg,
+    color-mix(in srgb, var(--color-primary) 15%, transparent) 90deg,
+    transparent 180deg);
+}
+.pattern-mesh-gradient .section-pad-accent {
+  background-image:
+    radial-gradient(ellipse at top right, color-mix(in srgb, var(--color-accent) 22%, transparent), transparent 60%),
+    radial-gradient(ellipse at bottom left, color-mix(in srgb, var(--color-primary) 15%, transparent), transparent 60%);
+}
+.pattern-concentric .section-pad-accent {
+  background-image: repeating-radial-gradient(circle at 0 0,
+    transparent 0 24px,
+    color-mix(in srgb, var(--color-accent) 12%, transparent) 24px 25px);
+}
+.pattern-band-rule .section-pad + .section-pad,
+.pattern-band-rule .section-pad-accent {
+  border-top: 8px solid var(--color-accent);
+}
+.pattern-wave .section-pad-accent {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='40'><path d='M0 30 Q15 10 30 30 T60 30' stroke='rgba(0,0,0,0.10)' stroke-width='1' fill='none'/></svg>");
+}
+
+/* ── DESIGN VARIETY: hero variant overrides ────────────────────────────────────
+   Stage 1 design_context.hero_variant drives one of these classes on #hero.
+   The default (image_right) needs no override — base hero CSS in single.html's
+   <style> block handles it. Each variant overrides specific properties without
+   re-templating the underlying HTML structure. */
+
+/* split_color — solid primary block on left, photo-backed white on right.
+   The hero photo is constrained to the right half and rendered at low
+   opacity so the form card sits cleanly on top of a softened image rather
+   than a stark white field. The navy color block stays flat. */
+#hero.hero-variant-split-color .hero-bg {
+  left: 50%;
+  width: 50%;
+  opacity: 0.32;
+  filter: brightness(1.06) saturate(0.82);
+}
+#hero.hero-variant-split-color .hero-bg::after {
+  background: linear-gradient(to bottom,
+    rgba(255,255,255,0.55) 0%,
+    rgba(255,255,255,0.35) 50%,
+    rgba(255,255,255,0.55) 100%) !important;
+}
+#hero.hero-variant-split-color { background: linear-gradient(to right,
+  var(--color-primary) 0%, var(--color-primary) 50%, var(--white) 50%, var(--white) 100%); }
+#hero.hero-variant-split-color .hero-content { color: var(--white); }
+#hero.hero-variant-split-color .hero-headline,
+#hero.hero-variant-split-color .hero-content h1 { color: var(--white); }
+#hero.hero-variant-split-color .hero-tagline { color: color-mix(in srgb, var(--color-accent) 90%, white); }
+#hero.hero-variant-split-color .hero-sub { color: rgba(255,255,255,0.85); }
+#hero.hero-variant-split-color .hero-established { color: rgba(255,255,255,0.7); border-color: rgba(255,255,255,0.3); }
+#hero.hero-variant-split-color .hero-phone { color: var(--white); }
+
+/* poster_right — white ground, poster-scale headline in ink, the hero photo as a
+   framed still on the right at full strength (no dark overlay). Chosen for
+   roofing-london-001 (2026-09-17 direction review, A3 + photo). Text stacks over
+   the photo on mobile. */
+#hero.hero-variant-poster-right { background: var(--white); border-bottom: 1px solid var(--border); align-items: center; min-height: 0; padding: 72px 0 56px; }
+#hero.hero-variant-poster-right .hero-bg { left: auto; right: 0; top: 56px; bottom: 56px; width: 46%; opacity: 1; filter: none; border: 1px solid var(--border); background-position: center; }
+#hero.hero-variant-poster-right .hero-bg::after { display: none; }
+#hero.hero-variant-poster-right .hero-content { max-width: 50%; }
+#hero.hero-variant-poster-right .hero-content,
+#hero.hero-variant-poster-right .hero-headline,
+#hero.hero-variant-poster-right .hero-content h1,
+#hero.hero-variant-poster-right .hero-phone { color: var(--color-text); }
+#hero.hero-variant-poster-right .hero-headline { font-size: clamp(48px, 7.2vw, 112px); line-height: 0.94; letter-spacing: -0.03em; font-weight: 800; max-width: none; }
+#hero.hero-variant-poster-right .hero-tagline { color: var(--text-mid); text-transform: none; letter-spacing: 0; font-size: 17px; font-weight: 600; }
+#hero.hero-variant-poster-right .hero-sub { color: var(--text-mid); font-size: 20px; max-width: 34ch; }
+#hero.hero-variant-poster-right .hero-established { color: var(--text-mid); border-color: var(--border); background: transparent; backdrop-filter: none; }
+@media (max-width: 900px) {
+  #hero.hero-variant-poster-right { padding: 40px 0 0; flex-direction: column; align-items: stretch; }
+  #hero.hero-variant-poster-right .hero-content { max-width: none; }
+  #hero.hero-variant-poster-right .hero-bg { position: relative; inset: auto; width: auto; height: 240px; margin: 28px 20px 0; border: 1px solid var(--border); }
+}
+
+/* full_bleed — same hero photo as default, but darker overlay + centered text + form below */
+#hero.hero-variant-full-bleed .hero-bg::after { background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.65)) !important; }
+#hero.hero-variant-full-bleed .hero-split { grid-template-columns: 1fr !important; max-width: 720px; margin: 0 auto; gap: 28px; }
+#hero.hero-variant-full-bleed .hero-content { text-align: center; }
+#hero.hero-variant-full-bleed .hero-headline { font-size: clamp(36px, 6vw, 64px); }
+#hero.hero-variant-full-bleed .hero-tagline,
+#hero.hero-variant-full-bleed .hero-sub { text-align: center; }
+#hero.hero-variant-full-bleed .hero-phone { justify-content: center; }
+
+/* centered_credentials — no photo, white bg, centered text + form stacked */
+#hero.hero-variant-centered-credentials .hero-bg { display: none; }
+#hero.hero-variant-centered-credentials { background: var(--white); border-bottom: 1px solid var(--border); }
+#hero.hero-variant-centered-credentials .hero-split { grid-template-columns: 1fr !important; max-width: 680px; margin: 0 auto; gap: 32px; }
+#hero.hero-variant-centered-credentials .hero-content { text-align: center; color: var(--color-text); }
+#hero.hero-variant-centered-credentials .hero-headline,
+#hero.hero-variant-centered-credentials .hero-content h1 { color: var(--color-text); }
+#hero.hero-variant-centered-credentials .hero-sub { color: var(--text-mid); text-align: center; }
+#hero.hero-variant-centered-credentials .hero-tagline { color: var(--color-primary); text-align: center; }
+#hero.hero-variant-centered-credentials .hero-phone { justify-content: center; color: var(--color-primary); }
+#hero.hero-variant-centered-credentials .hero-established { color: var(--color-accent); border-color: var(--color-accent); }
+#hero.hero-variant-centered-credentials .hero-form-card { max-width: 540px; margin: 0 auto; border: 1px solid var(--border); box-shadow: var(--shadow-sm); }
+
+/* editorial — subtle warm bg, large serif headline, asymmetric grid */
+#hero.hero-variant-editorial .hero-bg { display: none; }
+#hero.hero-variant-editorial { background: color-mix(in srgb, var(--color-accent) 6%, var(--white)); }
+#hero.hero-variant-editorial .hero-split { grid-template-columns: 1.5fr 1fr !important; gap: 48px; align-items: center; }
+#hero.hero-variant-editorial .hero-content { color: var(--color-text); }
+#hero.hero-variant-editorial .hero-headline { font-size: clamp(40px, 6vw, 72px); line-height: 1.0; color: var(--color-text); }
+#hero.hero-variant-editorial .hero-tagline { color: var(--color-accent); border-top: 2px solid var(--color-accent); border-bottom: 2px solid var(--color-accent); padding: 6px 0; display: inline-block; width: max-content; font-size: 12px; letter-spacing: 0.16em; }
+#hero.hero-variant-editorial .hero-sub { color: var(--text-mid); font-size: 18px; max-width: 50ch; }
+#hero.hero-variant-editorial .hero-established { display: none; }
+#hero.hero-variant-editorial .hero-phone { color: var(--color-primary); }
+#hero.hero-variant-editorial .hero-form-card { border: 1px solid var(--border); }
+
+/* ── DESIGN VARIETY: testimonial variant overrides ─────────────────────────────
+   Stage 1 design_context.testimonial_variant selects one of:
+   - card_rail (default — current treatment, no override needed)
+   - pull_quote (large serif italic quotes, no card chrome)
+   - quote_wall (denser grid of shorter quotes) */
+
+/* pull_quote — strip card chrome, large serif italic, accent rule */
+#reviews.testimonial-variant-pull-quote .testimonials-track {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  overflow: visible;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0;
+}
+#reviews.testimonial-variant-pull-quote .testimonial-card {
+  background: transparent;
+  border: none;
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0;
+  padding: 8px 0 8px 28px;
+  box-shadow: none;
+  min-width: 0;
+  flex: none;
+  scroll-snap-align: none;
+}
+#reviews.testimonial-variant-pull-quote .testimonial-quote {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--color-text);
+  margin-bottom: 14px;
+}
+#reviews.testimonial-variant-pull-quote .testimonial-author { padding-top: 0; border: none; }
+#reviews.testimonial-variant-pull-quote .author-avatar {
+  width: 36px; height: 36px;
+  background: transparent;
+  border: 1.5px solid var(--color-accent);
+  color: var(--color-primary);
+}
+/* Pull-quote variant features select quotes — show only the first 3. The
+   remaining 5 testimonials stay in stage1 (8 required by validator) but
+   render hidden. Premium positioning benefits from quality > quantity. */
+#reviews.testimonial-variant-pull-quote .testimonial-card:nth-child(n+4) {
+  display: none;
+}
+/* Quote-wall variant shows a 3x2 grid — limit to first 6 for cleaner symmetry. */
+#reviews.testimonial-variant-quote-wall .testimonial-card:nth-child(n+7) {
+  display: none;
+}
+
+/* ── DESIGN VARIETY: services section variants ─────────────────────────────────
+   Stage 1 design_context.services_variant selects one of:
+   - card_grid (default — auto-fill grid of equal cards, no override)
+   - horizontal_strip (4 services in a single horizontal row, denser cards)
+   - editorial_list (numbered list with large numerals, services as rows) */
+
+/* horizontal_strip — denser strip across the full width */
+#services.services-variant-horizontal-strip .services-grid {
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 14px;
+}
+#services.services-variant-horizontal-strip .service-card-modal {
+  padding: 20px 16px;
+  text-align: center;
+}
+#services.services-variant-horizontal-strip .service-icon {
+  margin-left: auto; margin-right: auto;
+  width: 44px; height: 44px;
+}
+#services.services-variant-horizontal-strip .service-card-modal h3 { font-size: 15px; }
+#services.services-variant-horizontal-strip .service-card-modal p { font-size: 13px; }
+@media (max-width: 900px) {
+  #services.services-variant-horizontal-strip .services-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+/* editorial_list — large numerals + horizontal rows + thin rule between */
+#services.services-variant-editorial-list .services-grid {
+  display: block !important;
+  max-width: 880px;
+  margin: 0 auto;
+  counter-reset: editorial-service;
+}
+#services.services-variant-editorial-list .service-card-modal {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 0 32px;
+  padding: 32px 0;
+  border: none;
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+  align-items: start;
+  counter-increment: editorial-service;
+  position: relative;
+}
+#services.services-variant-editorial-list .service-card-modal:first-child { border-top: none; }
+#services.services-variant-editorial-list .service-card-modal:hover {
+  transform: none;
+  box-shadow: none;
+}
+/* Numeral takes col 1, spans all rows */
+#services.services-variant-editorial-list .service-card-modal::before {
+  content: '0' counter(editorial-service);
+  font-family: var(--font-heading);
+  font-size: 56px;
+  font-weight: 800;
+  color: var(--color-accent);
+  line-height: 1;
+  opacity: 0.7;
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+/* Service icon hidden — numeral replaces it */
+#services.services-variant-editorial-list .service-icon { display: none; }
+/* All content children explicitly placed in col 2 so they don't backfill col 1 */
+#services.services-variant-editorial-list .service-card-modal > h3,
+#services.services-variant-editorial-list .service-card-modal > p,
+#services.services-variant-editorial-list .service-card-modal > .service-toggle {
+  grid-column: 2;
+}
+#services.services-variant-editorial-list .service-card-modal h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+#services.services-variant-editorial-list .service-card-modal p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media (max-width: 720px) {
+  #services.services-variant-editorial-list .service-card-modal {
+    grid-template-columns: 64px 1fr;
+    gap: 20px;
+    padding: 24px 0;
+  }
+  #services.services-variant-editorial-list .service-card-modal::before { font-size: 40px; }
+}
+
+/* ── DESIGN VARIETY: why-us section variants ───────────────────────────────────
+   Stage 1 design_context.why_us_variant selects one of:
+   - text_with_image (default — 1fr 1fr text-left image-right, no override)
+   - image_first (1.2fr 1fr image-left text-right — image visually leads)
+   - text_centered (no image, centered text + value-props, more whitespace) */
+
+/* image_first — flip the grid and give image more weight */
+#why-us.why-us-variant-image-first .why-us-grid {
+  grid-template-columns: 1.2fr 1fr !important;
+  direction: rtl;
+}
+#why-us.why-us-variant-image-first .why-us-grid > * { direction: ltr; }
+
+/* text_centered — hide the image and body text, lead with credentialed
+   3-col value-prop grid. Width matches the rest of the page.
+   Section gets a soft accent-derived tint to break up the white page. */
+#why-us.why-us-variant-text-centered {
+  background: color-mix(in srgb, var(--color-accent) 7%, var(--white)) !important;
+}
+
+/* Opt-in section tint via design_context.section_tint = "subtle".
+   When set, sections that would otherwise be flat white pick up a soft
+   accent-derived tint to break page rhythm. body class wins over
+   single.html's inline `#faq { background: var(--white); }`. */
+body.section-tint-subtle #faq {
+  background-color: color-mix(in srgb, var(--color-accent) 7%, var(--white)) !important;
+}
+#why-us.why-us-variant-text-centered .why-us-grid {
+  grid-template-columns: 1fr !important;
+  text-align: center;
+}
+#why-us.why-us-variant-text-centered .why-us-photo { display: none; }
+/* Suppress the long body paragraph — variant relies on headline + evidence */
+#why-us.why-us-variant-text-centered .why-us-left .section-subtitle { display: none; }
+#why-us.why-us-variant-text-centered .value-props {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 48px;
+  text-align: left;
+}
+#why-us.why-us-variant-text-centered .value-prop {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+@media (max-width: 800px) {
+  #why-us.why-us-variant-text-centered .value-props { grid-template-columns: 1fr; }
+}
+
+/* ── DESIGN VARIETY: process section variants ──────────────────────────────────
+   Stage 1 design_context.process_variant selects one of:
+   - card_grid (default — current 4-column horizontal flow with dashed rail)
+   - timeline (vertical timeline with continuous left rail, larger step bodies)
+   - stepped (no card chrome, oversized numbers carry the rhythm) */
+
+/* timeline — single-column vertical timeline with continuous left rail.
+   Width matches the rest of the page; the timeline rail anchors flush left
+   to the 70px markers regardless of container width. */
+#process.process-variant-timeline .process-grid {
+  grid-template-columns: 1fr !important;
+  gap: 0 !important;
+  position: relative;
+}
+#process.process-variant-timeline .process-grid::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 35px;
+  right: auto;
+  width: 2px;
+  height: auto;
+  border: none;
+  background: var(--color-accent);
+  opacity: 0.4;
+}
+#process.process-variant-timeline .process-step {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  background: transparent;
+  border: none;
+  padding: 24px 0;
+  border-radius: 0;
+  position: relative;
+}
+#process.process-variant-timeline .process-step:hover { transform: none; box-shadow: none; }
+#process.process-variant-timeline .process-step-header {
+  background: var(--color-primary);
+  border-radius: 50%;
+  width: 70px; height: 70px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  min-height: 0;
+}
+#process.process-variant-timeline .process-step-header::before {
+  content: '0' counter(process-step);
+  font-size: 22px;
+  color: var(--color-accent);
+  position: static;
+  font-weight: 700;
+}
+#process.process-variant-timeline .process-step-icon { display: none; }
+#process.process-variant-timeline .process-step-body {
+  padding: 8px 0 8px 24px;
+}
+#process.process-variant-timeline .process-step h3 { font-size: 18px; margin-bottom: 6px; }
+#process.process-variant-timeline .process-step p { font-size: 15px; }
+
+/* stepped — minimal card chrome, oversized numbers as the visual rhythm */
+#process.process-variant-stepped .process-grid::before { display: none; }
+#process.process-variant-stepped .process-step {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+#process.process-variant-stepped .process-step:hover { transform: none; box-shadow: none; }
+#process.process-variant-stepped .process-step-header {
+  background: transparent;
+  padding: 0 0 12px;
+  min-height: 0;
+  border-bottom: 2px solid var(--color-accent);
+  margin-bottom: 18px;
+}
+#process.process-variant-stepped .process-step-header::before {
+  font-size: 72px;
+  color: var(--color-primary);
+  opacity: 1;
+  position: static;
+  font-weight: 800;
+}
+#process.process-variant-stepped .process-step-icon { display: none; }
+#process.process-variant-stepped .process-step-body { padding: 0; }
+#process.process-variant-stepped .process-step h3 { font-size: 18px; }
+
+/* ── DESIGN VARIETY: gallery section variants ──────────────────────────────────
+   Stage 1 design_context.gallery_variant selects one of:
+   - grid (default — equal 3-column grid, no override)
+   - asymmetric_feature (1 large hero image left, 2 smaller stacked right) */
+
+#gallery.gallery-variant-asymmetric-feature .gallery-grid {
+  grid-template-columns: 2fr 1fr !important;
+  grid-template-rows: auto auto;
+  gap: 16px;
+}
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(1) {
+  grid-column: 1; grid-row: 1 / 3;
+}
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(2) {
+  grid-column: 2; grid-row: 1;
+}
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
+  grid-column: 2; grid-row: 2;
+}
+#gallery.gallery-variant-asymmetric-feature .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 720px) {
+  #gallery.gallery-variant-asymmetric-feature .gallery-grid {
+    grid-template-columns: 1fr !important;
+  }
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(1),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(2),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
+    grid-column: 1; grid-row: auto;
+  }
+}
+
+/* quote_wall — denser 3-col grid of shorter quotes, no horizontal scroll */
+#reviews.testimonial-variant-quote-wall .testimonials-track {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  overflow: visible;
+  padding: 0;
+}
+#reviews.testimonial-variant-quote-wall .testimonial-card {
+  min-width: 0;
+  flex: none;
+  scroll-snap-align: none;
+  padding: 22px;
+}
+#reviews.testimonial-variant-quote-wall .testimonial-quote {
+  font-size: 15px;
+  line-height: 1.55;
+  margin-bottom: 14px;
+}
+@media (max-width: 900px) {
+  #reviews.testimonial-variant-quote-wall .testimonials-track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  #reviews.testimonial-variant-quote-wall .testimonials-track {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── RESET & BASE ───────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.72;
+  color: var(--color-text);
+  background: var(--white);
+}
+
+/* Prevent layout-breaking overflow on long words (long URLs, no-space content) */
+p, li, td, .section-subtitle, .team-bio, .testimonial-quote, .faq-answer-inner {
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4 {
+  overflow-wrap: break-word;
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+ul { list-style: none; }
+
+/* ── LAYOUT UTILITIES ───────────────────────────────────────────────────────── */
+.container {
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Section padding scaled by Stage 1 design_context.density_scale.
+   compact (0.78) → ~56px, comfortable (1.0) → 72px, spacious (1.28) → ~92px */
+.section-pad        { padding: calc(72px * var(--density-scale)) 0; }
+.section-pad-sm     { padding: calc(48px * var(--density-scale)) 0; }
+.section-pad-accent { padding: calc(40px * var(--density-scale)) 0; } /* Compact accent bands: trust-band, stats-bar */
+
+/* ── TYPOGRAPHY HELPERS ─────────────────────────────────────────────────────── */
+.section-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+
+.section-subtitle {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text-mid);
+  max-width: 560px;
+}
+
+/* ── BUTTONS ────────────────────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 50px;
+  padding: 0 28px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform var(--transition), filter var(--transition), box-shadow var(--transition), background var(--transition);
+}
+.btn:hover  { transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.btn:active { transform: translateY(0); }
+
+.btn-primary { background: var(--color-accent); color: var(--white); }
+.btn-primary:hover { filter: brightness(0.88); }
+
+.btn-outline-white {
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 28px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--white);
+  border: 2px solid rgba(255,255,255,0.7);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: background var(--transition), border-color var(--transition);
+}
+.btn-outline-white:hover { background: rgba(255,255,255,0.12); border-color: var(--white); }
+
+.btn-outline-dark {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius);
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 28px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background var(--transition), color var(--transition);
+}
+.btn-outline-dark:hover { background: var(--color-primary); color: var(--white); }
+
+/* ── CTA BAND — SHARED STRUCTURAL STYLES ────────────────────────────────────── */
+#cta-band { padding: 40px 0; }
+
+/* Band layout variant (home / about) */
+.cta-band-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.cta-band-headline {
+  font-family: var(--font-heading);
+  font-size: clamp(24px, 3.5vw, 36px);
+  font-weight: 700;
+  color: var(--white);
+}
+
+.cta-band-sub { font-size: 16px; color: rgba(255,255,255,0.75); margin-top: 6px; }
+
+.cta-band-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.cta-band-phone {
+  color: rgba(255,255,255,0.9);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Centered band variant (service / reviews / faq / area / contact) */
+.cta-band-btn {
+  display: inline-flex;
+  align-items: center;
+  height: 52px;
+  padding: 0 32px;
+  background: var(--white);
+  color: var(--color-accent);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: background var(--transition), transform var(--transition);
+}
+.cta-band-btn:hover { background: rgba(255,255,255,0.9); transform: translateY(-1px); }
+
+/* CTA-band scope override: when .btn-primary appears inside the dark green band,
+   invert to white-background-with-primary-text for maximum contrast. The default
+   .btn-primary (accent-colored) lacks contrast against the primary-colored band
+   when accent and primary sit at similar luminance. */
+#cta-band .btn-primary {
+  background: var(--white);
+  color: var(--color-primary);
+}
+#cta-band .btn-primary:hover {
+  background: rgba(255,255,255,0.9);
+  filter: none;
+}
+
+/* Hide area cards/pills that have no content — happens on sites with fewer
+   than 10 service areas. The home/single templates hard-code 10 slots; these
+   selectors elide any that didn't get populated. */
+.area-card[data-area=""] { display: none; }
+.area-pill:empty { display: none; }
+
+/* Hide trust-items with empty labels (sites that want fewer than 4 badges leave
+   slots blank in stage2.trust_badges); collapse the grid from 4 → 3 columns
+   when one is hidden so the visible items stay evenly distributed. */
+.trust-item:has(strong:empty) { display: none; }
+.trust-grid:has(.trust-item:has(strong:empty)) { grid-template-columns: repeat(3, 1fr); }
+
+/* ── NAVIGATION ─────────────────────────────────────────────────────────────── */
+#site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: var(--color-primary);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  gap: 16px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.nav-logo-text {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.1;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nav-logo-text span { color: var(--color-accent); }
+
+.nav-links {
+  display: flex;
+  gap: 4px;
+  margin: 0 auto;
+}
+
+.nav-links a {
+  color: rgba(255,255,255,0.8);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: var(--radius);
+  white-space: nowrap;
+  transition: background var(--transition), color var(--transition);
+}
+.nav-links a:hover,
+.nav-links a[aria-current="page"],
+.nav-links a[aria-current] { background: rgba(255,255,255,0.1); color: var(--white); }
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.nav-phone {
+  color: rgba(255,255,255,0.85);
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-phone svg { flex-shrink: 0; }
+
+/* Mobile hamburger */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 12px;
+  background: none;
+  border: none;
+  margin-left: auto;
+}
+.nav-hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: transform var(--transition), opacity var(--transition);
+}
+/* Hamburger → X animation */
+.nav-hamburger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-hamburger[aria-expanded="true"] span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.nav-hamburger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ── Services Dropdown ── */
+.nav-dropdown { position: relative; }
+
+.nav-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgba(255,255,255,0.8);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: var(--radius);
+  background: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background var(--transition), color var(--transition);
+  font-family: inherit;
+  line-height: 1;
+}
+.nav-dropdown-trigger:hover,
+.nav-dropdown[data-open] .nav-dropdown-trigger {
+  background: rgba(255,255,255,0.1);
+  color: var(--white);
+}
+.nav-chevron {
+  transition: transform var(--transition);
+  flex-shrink: 0;
+}
+.nav-dropdown[data-open] .nav-chevron { transform: rotate(180deg); }
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 240px;
+  max-width: calc(100vw - 24px); /* prevent right-edge clipping on narrow viewports */
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  padding: 6px 0;
+  z-index: 100;
+  list-style: none;
+  margin: 0;
+  /* Closed state — fade + slide up */
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-6px);
+  visibility: hidden;
+  transition:
+    opacity 150ms cubic-bezier(0.25, 1, 0.5, 1),
+    transform 150ms cubic-bezier(0.25, 1, 0.5, 1),
+    visibility 0s linear 150ms;
+}
+.nav-dropdown[data-open] .nav-dropdown-menu {
+  /* Open state — fade + slide down */
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+  visibility: visible;
+  transition:
+    opacity 200ms cubic-bezier(0.25, 1, 0.5, 1),
+    transform 200ms cubic-bezier(0.25, 1, 0.5, 1),
+    visibility 0s linear 0s;
+}
+.nav-dropdown-menu li { list-style: none; }
+.nav-dropdown-menu a {
+  display: block;
+  padding: 10px 18px;
+  color: var(--text-dark);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background var(--transition), color var(--transition);
+}
+.nav-dropdown-menu a:hover {
+  background: rgba(0,0,0,0.04);
+  color: var(--color-primary);
+}
+
+/* Mobile menu */
+.nav-mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: var(--color-primary);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 12px 0 20px;
+}
+.nav-mobile-menu.open { display: flex; }
+.nav-mobile-menu a {
+  color: rgba(255,255,255,0.85);
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.nav-mobile-menu .mobile-cta { margin: 12px 24px 0; }
+
+/* ── FOOTER ─────────────────────────────────────────────────────────────────── */
+#site-footer {
+  background: var(--color-primary);
+  color: rgba(255,255,255,0.75);
+}
+
+.footer-top { padding: 56px 0 40px; }
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-col h4 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--white);
+  margin-bottom: 18px;
+}
+/* Item 1: Footer brand link (company name links to homepage from every sub-page). */
+.footer-brand-link {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity var(--transition);
+}
+.footer-brand-link:hover { opacity: 0.75; }
+.footer-col p { font-size: 14px; line-height: 1.7; margin-bottom: 16px; }
+.footer-col ul li { margin-bottom: 10px; }
+.footer-col ul li a {
+  font-size: 14px;
+  color: rgba(255,255,255,0.65);
+  transition: color var(--transition);
+}
+.footer-col ul li a:hover { color: var(--white); }
+
+.footer-nap { font-size: 13px; line-height: 1.9; color: rgba(255,255,255,0.65); }
+
+.footer-social { display: flex; gap: 10px; margin-top: 16px; }
+.footer-social a {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.6);
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+.footer-social a:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.4);
+  color: var(--white);
+}
+
+/* Footer disclaimer: lead-referral posture, sits above the copyright strip on every page. */
+.footer-disclaimer {
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.6);
+  margin: 0 0 20px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: rgba(255,255,255,0.45);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* ── MOBILE FLOATING CTA ────────────────────────────────────────────────────── */
+#mobile-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 888;
+  background: var(--color-accent);
+  color: var(--white);
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -3px 16px rgba(0,0,0,0.18);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ── SHARED COMPONENTS ──────────────────────────────────────────────────────── */
+
+/* Testimonial cards (used by home, about, area) */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.testimonial-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.testimonial-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+
+/* Item 3: .stars rule removed — per-testimonial star displays were a fake-rating surface. */
+
+.testimonial-quote {
+  font-size: 16px;
+  color: var(--text-mid);
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.testimonial-author { display: flex; align-items: center; gap: 12px; }
+
+.author-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.author-name  { font-weight: 700; font-size: 14px; color: var(--color-text); }
+.author-location { font-size: 12px; color: var(--text-light); }
+
+/* Team cards (used by home, about) */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.team-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 24px;
+  text-align: center;
+  background: var(--color-bg);
+  transition: box-shadow var(--transition);
+}
+.team-card:hover { box-shadow: var(--shadow-md); }
+
+.team-photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px;
+  background: var(--color-bg);
+  border: 3px solid var(--white);
+  box-shadow: var(--shadow-sm);
+}
+
+.team-name  { font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+.team-role  { font-size: 13px; color: var(--color-accent); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+.team-bio   { font-size: 14px; color: var(--text-mid); line-height: 1.65; }
+
+/* ── ACCESSIBILITY ──────────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* Skip navigation link — visible only on keyboard focus */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-link:focus {
+  position: fixed;
+  left: 16px;
+  top: 16px;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  background: var(--color-primary);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: var(--radius);
+  z-index: 9999;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
+}
+
+/* ── BASE RESPONSIVE ────────────────────────────────────────────────────────── */
+@media (max-width: 992px) {
+  /* Footer: NAP spans full width, 3 link columns sit in a row beneath */
+  .footer-grid { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .footer-col:first-child { grid-column: 1 / -1; }
+  .testimonials-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+  .section-pad { padding: 48px 0; }
+
+  /* Nav */
+  .nav-links, .nav-phone, .nav-actions .btn { display: none; }
+  .nav-hamburger { display: flex; }
+
+  /* CTA band */
+  .cta-band-inner  { flex-direction: column; text-align: center; }
+  .cta-band-actions { flex-direction: column; width: 100%; }
+  .cta-band-actions .btn { width: 100%; }
+
+  /* Team */
+  .team-grid { grid-template-columns: 1fr; max-width: 400px; }
+
+  /* Testimonials */
+  .testimonials-grid { grid-template-columns: 1fr; }
+
+  /* Footer */
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+
+  /* Mobile floating CTA */
+  #mobile-cta { display: flex; }
+  body { padding-bottom: 58px; }
+}
+
+/* ── SERVICE AREAS GRID ─────────────────────────────────────────────────── */
+#service-areas { background: var(--color-bg); }
+
+.areas-header { text-align: center; margin-bottom: 36px; }
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.area-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 14px 18px;
+  background: var(--color-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 15px;
+  transition: transform var(--transition), box-shadow var(--transition),
+              border-color var(--transition), color var(--transition);
+}
+.area-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.area-card:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+.area-card[data-area=""] { display: none; }
+
+.area-card-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.area-card-arrow {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  transition: transform var(--transition);
+}
+.area-card:hover .area-card-arrow { transform: translateX(3px); }
+
+/* ── Form thank-you state ──────────────────────────────────────────────────── */
+.form-thank-you { display:none; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:48px 24px; gap:16px; min-height:200px; }
+.form-thank-you-icon { width:56px; height:56px; border-radius:50%; background:var(--color-accent); display:flex; align-items:center; justify-content:center; color:var(--white); flex-shrink:0; }
+.form-thank-you h3 { font-size:22px; margin:0; }
+.form-thank-you p  { color:var(--text-mid); font-size:15px; max-width:360px; margin:0; }
+.form-thank-you a  { color:var(--color-primary); font-weight:600; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ── Area-page coordinate flourish (editorial only; hidden everywhere else) ── */
+.area-coords { display: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ── Lead form spam protection ─────────────────────────────────────────── */
+/* Turnstile (managed mode): renders a compact verification strip above the submit button. */
+.cf-turnstile { margin: 0 0 14px; min-height: 65px; }
+
+/* Honeypot: visually removed but present in the DOM for bots to fill. */
+.hp-field {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px; height: 1px;
+  overflow: hidden;
+}
+
+/* Inline lead-form submission error (shown only when capture fails). */
+.form-error {
+  display: none;
+  margin-top: 12px;
+  padding: 10px 14px;
+  border-left: 3px solid #b3261e;
+  background: rgba(179, 38, 30, 0.08);
+  color: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.form-error a { font-weight: 600; text-decoration: underline; color: inherit; }
+
+/* ── Inline quote form (service / area / cost-guide money pages) ────────── */
+.quote-form-section { padding: 64px 0; background: var(--bg-alt, #f7f7f5); }
+.quote-form-card {
+  max-width: 640px; margin: 0 auto; padding: 36px 32px;
+  background: var(--white, #fff); border-radius: var(--radius, 8px);
+  box-shadow: var(--shadow-sm, 0 2px 8px rgba(0,0,0,0.08));
+}
+.quote-form-card h2 { font-family: var(--font-heading); font-size: clamp(22px, 3.5vw, 30px); margin: 0 0 8px; }
+.quote-form-sub { color: var(--text-mid, #555); font-size: 15px; margin: 0 0 24px; }
+.quote-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+.quote-form input[type="text"],
+.quote-form input[type="tel"],
+.quote-form input[type="email"] {
+  width: 100%; padding: 12px 14px; font-size: 15px; font-family: inherit;
+  border: 1px solid var(--border, #ddd); border-radius: var(--radius, 6px);
+  background: var(--white, #fff); box-sizing: border-box;
+}
+.quote-form input:focus { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+.quote-form-submit {
+  width: 100%; padding: 14px 20px; margin-top: 4px; font-size: 16px; font-weight: 700;
+  font-family: inherit; color: var(--white, #fff); background: var(--color-accent);
+  border: none; border-radius: var(--radius, 6px); cursor: pointer;
+  transition: var(--transition, all 0.2s ease);
+}
+.quote-form-submit:hover { filter: brightness(0.92); }
+.quote-form-submit:disabled { opacity: 0.7; cursor: wait; }
+@media (max-width: 560px) {
+  .quote-form-row { grid-template-columns: 1fr; }
+  .quote-form-card { padding: 28px 20px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes ledger-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes ledger-fade { from { opacity: 0; } to { opacity: 1; } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LAYOUT VARIANTS: nav, trust band, lead form, FAQ, footer, section order
+   (portfolio distinctness, 2026-09-25). Each block is scoped to the class that
+   stage4_assemble.variant_suffix()/variant_attr() emits ONLY for a non-default
+   genome value, so default sites are untouched. Selectors are ID + class so they
+   beat each template's inline <style> (which loads after this file) and sit at the
+   end of this file so they also win ties against the feel layers above.
+   Rules: keep WCAG AA contrast, never hide the phone number, the lead form or
+   the Turnstile widget, and fall back to today's mobile layout where noted.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── nav: bar_light_rule ── white bar, ink links, hairline rule, outlined CTA.
+   The wordmark spans carry inline white colors, hence the !important. */
+#site-nav.nav-variant-bar-light-rule { background: var(--white); box-shadow: none; border-bottom: 1px solid var(--border); }
+#site-nav.nav-variant-bar-light-rule .nav-logo span span span { color: var(--color-text) !important; }
+#site-nav.nav-variant-bar-light-rule .nav-logo span span span:first-child { color: var(--text-mid) !important; }
+#site-nav.nav-variant-bar-light-rule .nav-links a,
+#site-nav.nav-variant-bar-light-rule .nav-dropdown-trigger,
+#site-nav.nav-variant-bar-light-rule .nav-phone { color: var(--color-text); }
+#site-nav.nav-variant-bar-light-rule .nav-links a:hover,
+#site-nav.nav-variant-bar-light-rule .nav-links a[aria-current],
+#site-nav.nav-variant-bar-light-rule .nav-dropdown-trigger:hover,
+#site-nav.nav-variant-bar-light-rule .nav-dropdown[data-open] .nav-dropdown-trigger { background: color-mix(in srgb, var(--color-primary) 8%, var(--white)); color: var(--color-primary); }
+#site-nav.nav-variant-bar-light-rule .nav-actions .btn,
+#site-nav.nav-variant-bar-light-rule .nav-actions .btn-primary { background: transparent; color: var(--color-primary); border: 2px solid var(--color-primary); box-shadow: none; height: 44px; }
+#site-nav.nav-variant-bar-light-rule .nav-actions .btn:hover { background: var(--color-primary); color: var(--white); filter: none; }
+#site-nav.nav-variant-bar-light-rule .nav-hamburger span { background: var(--color-text); }
+#site-nav.nav-variant-bar-light-rule .nav-mobile-menu { background: var(--white); border-top: 1px solid var(--border); }
+#site-nav.nav-variant-bar-light-rule .nav-mobile-menu a { color: var(--color-text); border-bottom-color: var(--border); }
+#site-nav.nav-variant-bar-light-rule .nav-mobile-menu .mobile-cta { color: var(--white); }
+
+/* ── nav: split_centered_logo ── desktop only: the logo gets its own centered row,
+   the links sit centered on a second row with phone + CTA on the right. The bar
+   grows from 80px to 116px, so the body gains 36px of top padding to keep every
+   page's content clear of it. At <=768px it is today's mobile nav unchanged. */
+@media (min-width: 769px) {
+  body:has(#site-nav.nav-variant-split-centered-logo) { padding-top: 36px; }
+  #site-nav.nav-variant-split-centered-logo .nav-inner {
+    display: grid; height: auto; gap: 0;
+    grid-template-columns: 1fr auto 1fr; grid-template-rows: 64px 52px; align-items: center;
+  }
+  #site-nav.nav-variant-split-centered-logo .nav-logo { grid-column: 1 / -1; grid-row: 1; justify-self: center; transform: scale(1.3); }
+  #site-nav.nav-variant-split-centered-logo .nav-links { grid-column: 2; grid-row: 2; margin: 0; }
+  #site-nav.nav-variant-split-centered-logo .nav-actions { grid-column: 3; grid-row: 2; justify-self: end; gap: 14px; }
+  #site-nav.nav-variant-split-centered-logo .nav-actions .btn { height: 38px; padding: 0 18px; font-size: 13px; }
+  #site-nav.nav-variant-split-centered-logo .nav-inner::after {
+    content: ""; grid-column: 1 / -1; grid-row: 2; align-self: start; height: 1px; background: rgba(255,255,255,0.14);
+  }
+}
+@media (min-width: 769px) and (max-width: 1100px) {
+  /* not enough room to center the links and keep the actions clear of them */
+  #site-nav.nav-variant-split-centered-logo .nav-inner { grid-template-columns: 1fr auto; }
+  #site-nav.nav-variant-split-centered-logo .nav-links { grid-column: 1; justify-self: start; }
+  #site-nav.nav-variant-split-centered-logo .nav-actions { grid-column: 2; }
+}
+
+/* ── trust: ruled_text_row ── no icon squares: text-only cells between vertical
+   rules under a thick top rule, with larger type than the default strip. */
+#trust-band.trust-variant-ruled-text-row {
+  /* thick ink rule drawn 8px inside a white band, so it never merges into a dark hero bottom */
+  background: linear-gradient(var(--color-text), var(--color-text)) 0 8px / 100% 4px no-repeat, var(--white);
+  padding-top: 12px; border-bottom: 1px solid var(--border);
+}
+#trust-band.trust-variant-ruled-text-row .trust-icon { display: none; }
+#trust-band.trust-variant-ruled-text-row .trust-item { padding: 26px 28px; align-items: flex-start; }
+#trust-band.trust-variant-ruled-text-row .trust-item:first-child { padding-left: 0; }
+#trust-band.trust-variant-ruled-text-row .trust-text strong { font-family: var(--font-heading); font-size: 19px; line-height: 1.25; margin-bottom: 4px; }
+#trust-band.trust-variant-ruled-text-row .trust-text span { font-size: 15px; color: var(--text-mid); }
+@media (max-width: 992px) {
+  #trust-band.trust-variant-ruled-text-row .trust-item,
+  #trust-band.trust-variant-ruled-text-row .trust-item:first-child { padding: 20px 18px; }
+}
+
+/* ── trust: inline_badges ── one centered, wrapping row of pill badges with the
+   icon inline, on a tinted band. */
+#trust-band.trust-variant-inline-badges { background: var(--color-bg); border-bottom: 1px solid var(--border); padding: 28px 0; }
+#trust-band.trust-variant-inline-badges .trust-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 14px; }
+#trust-band.trust-variant-inline-badges .trust-item {
+  border: 1px solid var(--border) !important; border-radius: 999px; background: var(--white);
+  padding: 8px 20px 8px 8px; gap: 10px; box-shadow: none;
+}
+#trust-band.trust-variant-inline-badges .trust-icon { width: 34px; height: 34px; border-radius: 50%; background: var(--color-primary); color: var(--white); }
+#trust-band.trust-variant-inline-badges .trust-icon svg { width: 17px; height: 17px; }
+#trust-band.trust-variant-inline-badges .trust-text { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 8px; }
+#trust-band.trust-variant-inline-badges .trust-text strong { display: inline; font-size: 15px; margin: 0; }
+#trust-band.trust-variant-inline-badges .trust-text span { font-size: 14px; color: var(--text-mid); }
+@media (max-width: 768px) {
+  #trust-band.trust-variant-inline-badges .trust-grid { justify-content: flex-start; }
+  #trust-band.trust-variant-inline-badges .trust-item { border-radius: 28px; width: 100%; }
+}
+
+/* ── form: inline_panel ── the lead form leaves its floating card and sits in a
+   full-width tinted panel: heading + contact details across the top, fields in a
+   2-column grid below. On inner pages the form wrapper becomes a flat tinted
+   panel with a primary rule on its left. */
+#contact.form-variant-inline-panel { background: color-mix(in srgb, var(--color-primary) 7%, var(--white)); }
+#contact.form-variant-inline-panel .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+#contact.form-variant-inline-panel .contact-info {
+  display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); column-gap: 64px; align-items: end;
+}
+#contact.form-variant-inline-panel .contact-info h2,
+#contact.form-variant-inline-panel .contact-info > p { grid-column: 1; }
+#contact.form-variant-inline-panel .contact-info > p { margin-bottom: 0; font-size: 18px; }
+#contact.form-variant-inline-panel .contact-details { grid-column: 2; grid-row: 1 / span 2; flex-direction: row; flex-wrap: wrap; gap: 20px 36px; }
+#contact.form-variant-inline-panel .contact-form {
+  background: transparent; border: 0; border-top: 2px solid var(--color-text); border-radius: 0; box-shadow: none; padding: 36px 0 0;
+}
+#contact.form-variant-inline-panel .contact-form form { display: grid; grid-template-columns: 1fr 1fr; column-gap: 28px; }
+#contact.form-variant-inline-panel .contact-form form > * { grid-column: 1 / -1; }
+#contact.form-variant-inline-panel .contact-form form > .form-group:not(:has(textarea)):not(:has(input[name="address"])) { grid-column: auto; }
+#contact.form-variant-inline-panel .form-group label { color: var(--text-mid); font-size: 13px; }
+#contact.form-variant-inline-panel .form-group input,
+#contact.form-variant-inline-panel .form-group select,
+#contact.form-variant-inline-panel .form-group textarea { background-color: var(--white); padding-top: 14px; padding-bottom: 14px; font-size: 16px; }
+#contact.form-variant-inline-panel .form-submit { width: auto; min-width: 280px; justify-self: start; }
+#contact.form-variant-inline-panel .form-disclaimer { text-align: left; color: var(--text-mid); }
+@media (max-width: 768px) {
+  #contact.form-variant-inline-panel .contact-info { grid-template-columns: 1fr; row-gap: 12px; }
+  #contact.form-variant-inline-panel .contact-details { grid-column: 1; grid-row: auto; flex-direction: column; margin-top: 16px; }
+  #contact.form-variant-inline-panel .contact-form { padding: 28px 0 0; }
+  #contact.form-variant-inline-panel .contact-form form { grid-template-columns: 1fr; }
+  #contact.form-variant-inline-panel .contact-form form > .form-group { grid-column: 1 / -1 !important; }
+  #contact.form-variant-inline-panel .form-submit { width: 100%; min-width: 0; }
+}
+.contact-form-wrap.form-variant-inline-panel,
+.quote-form-card.form-variant-inline-panel,
+.hero-form-card.form-variant-inline-panel {
+  background: color-mix(in srgb, var(--color-primary) 7%, var(--white)); box-shadow: none; border-radius: 0;
+  border-left: 4px solid var(--color-primary); padding: 32px 32px 28px;
+}
+.quote-form-card.form-variant-inline-panel { max-width: none; }
+.contact-form-wrap.form-variant-inline-panel label,
+.hero-form-card.form-variant-inline-panel .form-group label { color: var(--text-mid); }
+.contact-form-wrap.form-variant-inline-panel input,
+.contact-form-wrap.form-variant-inline-panel select,
+.contact-form-wrap.form-variant-inline-panel textarea,
+.hero-form-card.form-variant-inline-panel input,
+.hero-form-card.form-variant-inline-panel select { background-color: var(--white); }
+.cta-band-form-wrap.form-variant-inline-panel { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22); padding: 24px; }
+
+/* ── form: section_band ── the lead form section turns into a dark full-bleed
+   band (the site's primary color, which the nav already proves carries white
+   text): light headings and labels, white fields, full-width submit. */
+#contact.form-variant-section-band { background: var(--color-primary); color: var(--white); }
+#contact.form-variant-section-band .contact-info h2 { color: var(--white); }
+#contact.form-variant-section-band .contact-info > p { color: rgba(255,255,255,0.86); }
+#contact.form-variant-section-band .contact-detail-icon { background: rgba(255,255,255,0.14); color: var(--white); }
+#contact.form-variant-section-band .contact-detail-text strong { color: rgba(255,255,255,0.78); }
+#contact.form-variant-section-band .contact-detail-text a,
+#contact.form-variant-section-band .contact-detail-text span { color: var(--white); font-size: 18px; }
+#contact.form-variant-section-band .contact-form { background: transparent; border: 1px solid rgba(255,255,255,0.22); box-shadow: none; }
+#contact.form-variant-section-band .form-group label { color: rgba(255,255,255,0.88); }
+#contact.form-variant-section-band .form-group input,
+#contact.form-variant-section-band .form-group select,
+#contact.form-variant-section-band .form-group textarea { background-color: var(--white); border-color: transparent; }
+#contact.form-variant-section-band .form-submit { width: 100%; height: 56px; font-size: 16px; }
+#contact.form-variant-section-band .form-disclaimer,
+#contact.form-variant-section-band .form-disclaimer a { color: rgba(255,255,255,0.82) !important; }
+#contact.form-variant-section-band .form-thank-you h3 { color: var(--white); }
+#contact.form-variant-section-band .form-thank-you p,
+#contact.form-variant-section-band .form-thank-you a { color: rgba(255,255,255,0.86); }
+.contact-form-wrap.form-variant-section-band,
+.quote-form-card.form-variant-section-band,
+.hero-form-card.form-variant-section-band {
+  background: var(--color-primary); color: var(--white); box-shadow: none; border-radius: 0; padding: 36px 32px 32px;
+}
+.quote-form-card.form-variant-section-band { max-width: none; }
+.contact-form-wrap.form-variant-section-band h2,
+.quote-form-card.form-variant-section-band h2,
+.hero-form-card.form-variant-section-band h2,
+.contact-form-wrap.form-variant-section-band label,
+.hero-form-card.form-variant-section-band .form-group label { color: var(--white); }
+.quote-form-card.form-variant-section-band .quote-form-sub,
+.contact-form-wrap.form-variant-section-band p,
+.hero-form-card.form-variant-section-band .form-disclaimer,
+.hero-form-card.form-variant-section-band .form-disclaimer a { color: rgba(255,255,255,0.86) !important; }
+.contact-form-wrap.form-variant-section-band .form-thank-you h3,
+.quote-form-card.form-variant-section-band .form-thank-you h3,
+.hero-form-card.form-variant-section-band .form-thank-you h3 { color: var(--white); }
+.contact-form-wrap.form-variant-section-band .form-submit,
+.hero-form-card.form-variant-section-band .form-submit,
+.quote-form-card.form-variant-section-band .quote-form-submit { width: 100%; }
+.cta-band-form-wrap.form-variant-section-band { border-top: 4px solid var(--color-accent); padding-top: 22px; }
+
+/* ── faq: two_column_list ── every answer visible, bold questions, two columns on
+   desktop, no accordion chrome. Home uses buttons + max-height; single and
+   /faq/ use <details>, opened here with ::details-content (browsers without it
+   keep a working accordion). */
+#faq.faq-variant-two-column-list { background: var(--white); }
+#faq.faq-variant-two-column-list .faq-header { text-align: left; }
+#faq.faq-variant-two-column-list .faq-header .section-subtitle { margin: 0 !important; }
+#faq.faq-variant-two-column-list .faq-list { max-width: none; display: grid; grid-template-columns: 1fr 1fr; column-gap: 64px; }
+#faq.faq-variant-two-column-list .faq-item,
+.faq-section.faq-variant-two-column-list .faq-item {
+  background: transparent; border: 0; border-top: 1px solid var(--border); border-radius: 0; box-shadow: none; margin: 0; padding: 26px 0 30px;
+}
+#faq.faq-variant-two-column-list .faq-question,
+#faq.faq-variant-two-column-list .faq-item summary,
+.faq-section.faq-variant-two-column-list .faq-question {
+  padding: 0 0 10px; font-size: 19px; font-weight: 700; line-height: 1.35; cursor: default; background: none; pointer-events: none;
+}
+#faq.faq-variant-two-column-list .faq-icon,
+#faq.faq-variant-two-column-list .faq-toggle-icon,
+.faq-section.faq-variant-two-column-list .faq-question svg { display: none; }
+#faq.faq-variant-two-column-list .faq-answer { max-height: none; overflow: visible; }
+#faq.faq-variant-two-column-list .faq-answer-inner,
+.faq-section.faq-variant-two-column-list .faq-answer { padding: 0; font-size: 16px; line-height: 1.7; color: var(--text-mid); }
+#faq.faq-variant-two-column-list .faq-item::details-content,
+.faq-section.faq-variant-two-column-list .faq-item::details-content { content-visibility: visible; display: block; }
+.faq-section.faq-variant-two-column-list .faq-accordion { display: grid; grid-template-columns: 1fr 1fr; column-gap: 48px; gap: 0 48px; }
+@media (max-width: 768px) {
+  #faq.faq-variant-two-column-list .faq-list,
+  .faq-section.faq-variant-two-column-list .faq-accordion { grid-template-columns: 1fr; }
+  #faq.faq-variant-two-column-list .faq-question,
+  #faq.faq-variant-two-column-list .faq-item summary { font-size: 18px; }
+}
+
+/* ── faq: numbered_qa ── ruled rows, each prefixed by a large counter numeral,
+   answers always visible. */
+#faq.faq-variant-numbered-qa { background: var(--white); }
+#faq.faq-variant-numbered-qa .faq-header { text-align: left; max-width: 920px; margin-left: auto; margin-right: auto; }
+#faq.faq-variant-numbered-qa .faq-header .section-subtitle { margin: 0 !important; }
+#faq.faq-variant-numbered-qa .faq-list { max-width: 920px; counter-reset: faq-n; border-bottom: 1px solid var(--color-text); }
+.faq-section.faq-variant-numbered-qa .faq-content { counter-reset: faq-n; }
+#faq.faq-variant-numbered-qa .faq-item,
+.faq-section.faq-variant-numbered-qa .faq-item {
+  counter-increment: faq-n; position: relative; background: transparent; border: 0; border-top: 1px solid var(--color-text);
+  border-radius: 0; box-shadow: none; margin: 0; padding: 30px 0 32px 112px; overflow: visible;
+}
+#faq.faq-variant-numbered-qa .faq-item::before,
+.faq-section.faq-variant-numbered-qa .faq-item::before {
+  content: counter(faq-n, decimal-leading-zero); position: absolute; left: 0; top: 22px;
+  font-family: var(--font-heading); font-size: 60px; font-weight: 800; line-height: 1; letter-spacing: -0.03em; color: var(--color-primary);
+}
+#faq.faq-variant-numbered-qa .faq-question,
+#faq.faq-variant-numbered-qa .faq-item summary,
+.faq-section.faq-variant-numbered-qa .faq-question {
+  padding: 0 0 10px; font-size: 21px; font-weight: 700; line-height: 1.3; cursor: default; background: none; pointer-events: none;
+}
+#faq.faq-variant-numbered-qa .faq-icon,
+#faq.faq-variant-numbered-qa .faq-toggle-icon,
+.faq-section.faq-variant-numbered-qa .faq-question svg { display: none; }
+#faq.faq-variant-numbered-qa .faq-answer { max-height: none; overflow: visible; }
+#faq.faq-variant-numbered-qa .faq-answer-inner,
+.faq-section.faq-variant-numbered-qa .faq-answer { padding: 0; font-size: 17px; line-height: 1.7; color: var(--text-mid); max-width: 64ch; }
+#faq.faq-variant-numbered-qa .faq-item::details-content,
+.faq-section.faq-variant-numbered-qa .faq-item::details-content { content-visibility: visible; display: block; }
+.faq-section.faq-variant-numbered-qa .faq-accordion { gap: 0; }
+@media (max-width: 768px) {
+  #faq.faq-variant-numbered-qa .faq-item,
+  .faq-section.faq-variant-numbered-qa .faq-item { padding: 64px 0 26px 0; }
+  #faq.faq-variant-numbered-qa .faq-item::before,
+  .faq-section.faq-variant-numbered-qa .faq-item::before { top: 18px; font-size: 40px; }
+  #faq.faq-variant-numbered-qa .faq-question,
+  #faq.faq-variant-numbered-qa .faq-item summary { font-size: 19px; }
+}
+
+/* ── footer: light_minimal ── white footer, no columns: the company name, tagline,
+   address and phone on one row, then every link in one wrapping row, small type.
+   The tagline stays visible in small type. The NAP phone link carries an
+   inline white color, hence the !important. */
+#site-footer.footer-variant-light-minimal { background: var(--white); color: var(--text-mid); border-top: 1px solid var(--border); }
+#site-footer.footer-variant-light-minimal .footer-top { padding: 36px 0 20px; }
+#site-footer.footer-variant-light-minimal .footer-grid { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 22px; }
+#site-footer.footer-variant-light-minimal .footer-col:first-child {
+  flex: 1 0 100%; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 24px;
+  padding-bottom: 18px; margin-bottom: 8px; border-bottom: 1px solid var(--border);
+}
+#site-footer.footer-variant-light-minimal .footer-col:first-child h4 { margin: 0; font-size: 15px; letter-spacing: 0.08em; color: var(--color-text); }
+#site-footer.footer-variant-light-minimal .footer-col:first-child > p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--text-mid); }
+#site-footer.footer-variant-light-minimal .footer-nap { font-size: 14px; line-height: 1.6; color: var(--text-mid); }
+#site-footer.footer-variant-light-minimal .footer-nap br { display: none; }
+#site-footer.footer-variant-light-minimal .footer-nap span { margin-right: 16px; }
+#site-footer.footer-variant-light-minimal a[style] { color: var(--color-text) !important; }
+#site-footer.footer-variant-light-minimal .footer-col:not(:first-child),
+#site-footer.footer-variant-light-minimal .footer-col:not(:first-child) ul { display: contents; }
+#site-footer.footer-variant-light-minimal .footer-col:not(:first-child) h4 { display: none; }
+#site-footer.footer-variant-light-minimal .footer-col ul li { margin: 0; }
+#site-footer.footer-variant-light-minimal .footer-col ul li a { font-size: 14px; color: var(--text-mid); }
+#site-footer.footer-variant-light-minimal .footer-col ul li a:hover { color: var(--color-primary); text-decoration: underline; }
+#site-footer.footer-variant-light-minimal .footer-brand-link { color: var(--color-text); }
+#site-footer.footer-variant-light-minimal .footer-social a { border-color: var(--border); color: var(--text-mid); }
+#site-footer.footer-variant-light-minimal .footer-disclaimer { color: var(--text-mid); border-top-color: var(--border); font-size: 13px; }
+#site-footer.footer-variant-light-minimal .footer-bottom { color: var(--text-mid); border-top-color: var(--border); }
+#site-footer.footer-variant-light-minimal .footer-bottom a { color: var(--text-mid); }
+
+/* ── section order (trades only; body class) ── the page container becomes a flex
+   column ONLY on these two body classes, and `order` moves whole sections.
+   Everything not named keeps its source order after the moved sections. */
+body.order-proof-first #page-content,
+body.order-process-first #page-content { display: flex; flex-direction: column; }
+body.order-proof-first #page-content > *,
+body.order-process-first #page-content > * { order: 10; }
+body.order-proof-first #page-content > #hero,
+body.order-process-first #page-content > #hero { order: 1; }
+body.order-proof-first #page-content > #trust-band,
+body.order-process-first #page-content > #trust-band { order: 2; }
+/* proof_first: finished work and the numbers before the service list */
+body.order-proof-first #page-content > #portfolio { order: 3; }
+body.order-proof-first #page-content > #gallery { order: 3; }
+body.order-proof-first #page-content > #stats-bar { order: 4; }
+/* process_first: how it works, then services, then why us */
+body.order-process-first #page-content > #process { order: 3; }
+body.order-process-first #page-content > #services { order: 4; }
+body.order-process-first #page-content > #why-us { order: 5; }
+
+
+
+
+
+
+
+
+
+
+/* ── Trust band, stacked cells (<=480px) ──────────────────────────────────────
+   home.html and single.html stack the trust cells into one column at 480px, but
+   their 992px rule `.trust-item:nth-child(odd) { border-right }` outranks the
+   480px reset, so stacked cells kept a stray line on the right edge. ID
+   specificity removes it for the default and every trust variant (inline_badges
+   keeps its pill outline through its own !important border). Desktop and tablet
+   dividers are untouched. */
+@media (max-width: 480px) {
+  #trust-band .trust-item { border-right: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Referral disclosure beside call buttons + share-consent under forms
+   (operator rule 2026-10-27). Colour inherits so it reads on dark heroes and
+   light cards alike; sized to be read, not buried. */
+.referral-line { font-size: 0.9375rem; line-height: 1.5; margin: 12px 0 0; }
+/* In heroes and CTA bands the line also carries the section's subheadline class
+   (hero-sub / cta-band-sub) so every hero variant and feel colours it. */
+#hero .hero-sub.referral-line, #cta-band .cta-band-sub.referral-line { font-size: 1rem; margin: 20px 0 0; }
+/* Inside a CTA actions row the line takes its own full-width row (wraps in a row
+   layout, harmless in a column layout). */
+.cta-band-actions { flex-wrap: wrap; }
+#cta-band .cta-band-actions .referral-line { width: 100%; margin-top: 4px; }
+form .form-consent, form .form-disclaimer.form-consent { font-size: 0.9375rem; line-height: 1.55; margin: 12px 0 0; opacity: 0.85; }
+.form-consent { color: inherit; text-align: left; }
+.form-consent a { color: inherit; text-decoration: underline; }
+
+/* Gallery stills are illustrative (operator rule 2026-10-28) */
+.gallery-note { font-size: 0.9375rem; line-height: 1.5; margin: 20px 0 0; opacity: 0.75; }
+.gallery-note:empty { display: none; }
+@media (max-width: 640px) {
+  .gallery-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   WATER-NOTICE THEME LAYER  (opt-in; scoped to body.feel-water-notice)
+   A printed city water notice / utility bill insert. Cool notice paper, slate
+   ink, lime used like a highlighter pen. The nav is the letterhead over a
+   thick-and-thin printer's rule. The hero is the notice front: the tagline is
+   a boxed notice stamp set slightly askew, a big slab headline, and a
+   watering-calendar strip (MON to SUN, two days marked in lime with a drop)
+   under the calls to action; the photo is a printed insert on a white mat
+   with a perforated tear-off stub carrying meter-register boxes. Section
+   heads sit under the thick-and-thin rule with the eyebrow boxed as a stamp.
+   Services are tear-off calendar sheets: a slate header strip, a perforation
+   line, then the body. The process is a meter reading: each step marker is a
+   dial whose lime arc fills a quarter more per step. Stats read through boxed
+   meter windows. Trust and value props are checked boxes. The quote form is
+   a perforated reply coupon with a scissors mark; the footer is the bill stub
+   under a perforated edge. Slate = type, rules, stamps, the one primary
+   button. Lime = fills under ink only (never text on paper): the watering
+   days, gauge arcs, checkbox fills, highlighter hover, the call button.
+   Ink on paper ~13:1, white on slate ~7.4:1, ink on lime ~9:1.
+   ═══════════════════════════════════════════════════════════════════════════ */
+body.feel-water-notice {
+  --radius: 0; --shadow-sm: none; --shadow-md: none;
+  --wn-ink: var(--color-primary);
+  --wn-hi: var(--color-accent);
+  --wn-paper: var(--color-bg);
+  --wn-sheet: var(--white);
+  --wn-rule: color-mix(in srgb, var(--color-primary) 34%, transparent);
+  --wn-faint: color-mix(in srgb, var(--color-primary) 16%, transparent);
+  --wn-tint: color-mix(in srgb, var(--color-primary) 7%, var(--white));
+  --wn-deep: color-mix(in srgb, var(--color-primary) 78%, #000);
+  --wn-hl: linear-gradient(transparent 58%, color-mix(in srgb, var(--color-accent) 85%, transparent) 58% 92%, transparent 92%);
+  --wn-double:
+    linear-gradient(var(--color-primary), var(--color-primary)) 0 0 / 100% 4px no-repeat,
+    linear-gradient(var(--color-primary), var(--color-primary)) 0 8px / 100% 1px no-repeat;
+  --wn-perf: radial-gradient(circle, var(--wn-rule) 0 2px, transparent 2.6px) 0 50% / 12px 8px repeat-x;
+  --wn-week: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='448' height='84' viewBox='0 0 448 84'%3E%3Crect x='1' y='1' width='446' height='82' fill='none' stroke='%23000' stroke-width='2'/%3E%3Cpath d='M64 0V84M128 0V84M192 0V84M256 0V84M320 0V84M384 0V84' stroke='%23000' stroke-width='1' fill='none'/%3E%3Cpath d='M0 28H448' stroke='%23000' stroke-width='2'/%3E%3Cg font-family='Arial,Helvetica,sans-serif' font-size='13' font-weight='700' text-anchor='middle' letter-spacing='1'%3E%3Ctext x='32' y='19'%3EMON%3C/text%3E%3Ctext x='96' y='19'%3ETUE%3C/text%3E%3Ctext x='160' y='19'%3EWED%3C/text%3E%3Ctext x='224' y='19'%3ETHU%3C/text%3E%3Ctext x='288' y='19'%3EFRI%3C/text%3E%3Ctext x='352' y='19'%3ESAT%3C/text%3E%3Ctext x='416' y='19'%3ESUN%3C/text%3E%3C/g%3E%3Cpath fill-rule='evenodd' d='M0 28h64v56h-64z M32 38c-6 8 -11 14 -11 20a11 11 0 0 0 22 0c0-6 -5-12 -11-20z'/%3E%3Cpath fill-rule='evenodd' d='M192 28h64v56h-64z M224 38c-6 8 -11 14 -11 20a11 11 0 0 0 22 0c0-6 -5-12 -11-20z'/%3E%3Cpath d='M88 57h16' stroke='%23000' stroke-width='2'/%3E%3Cpath d='M152 57h16' stroke='%23000' stroke-width='2'/%3E%3Cpath d='M280 57h16' stroke='%23000' stroke-width='2'/%3E%3Cpath d='M344 57h16' stroke='%23000' stroke-width='2'/%3E%3Cpath d='M408 57h16' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
+  /* The tick is near-black ink on the accent fill, so it reads on any light accent. */
+  --wn-tick: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cpath d='M5 11.5l4 4 8-9' fill='none' stroke='%231B2630' stroke-width='2.6' stroke-linecap='square'/%3E%3C/svg%3E");
+  --border: var(--wn-rule);
+  --text-mid: #44525C;
+  background: var(--wn-paper);
+  font-size: 18px; line-height: 1.65; color: var(--color-text);
+}
+body.feel-water-notice h1, body.feel-water-notice h2, body.feel-water-notice h3, body.feel-water-notice h4 { font-family: var(--font-heading); letter-spacing: 0; text-wrap: balance; overflow-wrap: anywhere; }
+/* Figures (phone numbers, meter readings, prices) are set in the body face with tabular lining numerals, like a printed meter readout. */
+body.feel-water-notice #site-nav .nav-phone, body.feel-water-notice #hero .hero-phone, body.feel-water-notice #cta-band .cta-band-phone, body.feel-water-notice #stats-bar .stat-value, body.feel-water-notice #contact .contact-detail-text a, body.feel-water-notice #contact .contact-detail-text span, body.feel-water-notice .contact-info-value a, body.feel-water-notice .area-cta-phone, body.feel-water-notice .cg-tldr-value, body.feel-water-notice .cg-range-figure, body.feel-water-notice .breakdown-table td.price-cell, body.feel-water-notice .svc-hero-actions .btn-outline-white, body.feel-water-notice .cg-cta-band .btn-ghost-dark { font-family: var(--font-body) !important; font-variant-numeric: lining-nums tabular-nums; letter-spacing: -0.01em; }
+/* The band_rule pattern and section tints would fight the printed sheet, so section grounds go transparent; the notice rule does the dividing. */
+body.feel-water-notice .section-pad, body.feel-water-notice .section-pad-accent { background-color: transparent !important; background-image: none !important; border-top: 0 !important; }
+body.feel-water-notice .section-pad + .section-pad::before, body.feel-water-notice .section-pad-accent::before { display: none !important; }
+
+/* Section heads: the printer's thick-and-thin rule across the top, the eyebrow boxed as a notice stamp, the slab title under it. */
+body.feel-water-notice .services-header, body.feel-water-notice .process-header, body.feel-water-notice .faq-header, body.feel-water-notice .areas-header, body.feel-water-notice .gallery-header, body.feel-water-notice .why-us-left {
+  text-align: left; max-width: none; margin: 0 0 52px; padding-top: 36px; background: var(--wn-double);
+}
+body.feel-water-notice .gallery-header { align-items: flex-end; gap: 32px; }
+body.feel-water-notice .gallery-header > div:first-child { margin: 0; flex: 1; }
+body.feel-water-notice .why-us-left { margin: 0; }
+body.feel-water-notice .section-eyebrow, body.feel-water-notice [class*="eyebrow"]:not(.svc-hero-eyebrow):not(.cg-tldr-eyebrow):not(.cg-range-eyebrow) {
+  display: inline-block !important; width: auto; margin: 0 0 22px !important; padding: 5px 14px !important; border: 2px solid var(--wn-ink); box-shadow: inset 0 0 0 2px var(--wn-paper), inset 0 0 0 3px var(--wn-ink);
+  background: transparent; color: var(--wn-ink) !important; font-family: var(--font-heading); font-size: 17px !important; font-weight: 700 !important; line-height: 1.3; letter-spacing: 0 !important; text-transform: none !important;
+}
+body.feel-water-notice .section-title, body.feel-water-notice .contact-info h2, body.feel-water-notice .quote-form-card h2, body.feel-water-notice .svc-local-intro h2 { display: block; font-size: clamp(36px, 4.4vw, 60px); line-height: 1.04; font-weight: 700; margin: 0; max-width: 22ch; color: var(--color-text); text-align: left; }
+body.feel-water-notice .section-subtitle { display: block !important; font-size: 19px; line-height: 1.6; max-width: 58ch; color: var(--text-mid); margin: 18px 0 0 !important; text-align: left; }
+
+/* Buttons: square slate with white slab type; hover darkens the slate and draws a lime highlighter stroke along the bottom. */
+body.feel-water-notice .btn, body.feel-water-notice .btn-primary, body.feel-water-notice .cta-band-btn, body.feel-water-notice .quote-form-submit, body.feel-water-notice .form-submit, body.feel-water-notice #site-nav .nav-actions .btn, body.feel-water-notice #cta-band .btn-primary { border-radius: 0; border: 0; background: var(--wn-ink); color: var(--white); font-family: var(--font-heading); font-weight: 700; font-size: 19px; letter-spacing: 0; text-transform: none; height: 58px; padding: 0 30px; box-shadow: none; transition: background-color var(--transition), box-shadow var(--transition); }
+body.feel-water-notice .btn:hover, body.feel-water-notice .btn-primary:hover, body.feel-water-notice .cta-band-btn:hover, body.feel-water-notice .quote-form-submit:hover, body.feel-water-notice .form-submit:hover { filter: none; transform: none; background: var(--wn-deep); box-shadow: inset 0 -6px 0 var(--wn-hi); }
+body.feel-water-notice .btn:active, body.feel-water-notice .quote-form-submit:active, body.feel-water-notice .form-submit:active { transform: translateY(1px); }
+body.feel-water-notice .btn-outline-dark, body.feel-water-notice .btn-outline-white { border-radius: 0; font-family: var(--font-heading); font-weight: 700; font-size: 19px; letter-spacing: 0; text-transform: none; height: 58px; }
+body.feel-water-notice .btn-outline-dark { border: 2px solid var(--wn-ink); color: var(--wn-ink); background: transparent; }
+body.feel-water-notice .btn-outline-dark:hover { background: var(--wn-sheet); color: var(--color-text); box-shadow: inset 0 -6px 0 var(--wn-hi); }
+body.feel-water-notice a:focus-visible, body.feel-water-notice button:focus-visible, body.feel-water-notice input:focus-visible, body.feel-water-notice select:focus-visible, body.feel-water-notice textarea:focus-visible, body.feel-water-notice summary:focus-visible { outline: 3px solid var(--wn-ink); outline-offset: 3px; box-shadow: 0 0 0 6px var(--wn-hi); }
+body.feel-water-notice #cta-band :focus-visible, body.feel-water-notice #site-footer :focus-visible, body.feel-water-notice .cg-cta-band :focus-visible, body.feel-water-notice #mobile-cta:focus-visible { outline-color: var(--wn-hi); box-shadow: none; }
+
+/* Nav: the letterhead. A white sheet bar with the thick-and-thin rule under it; slate type; the current page is marked with the highlighter. The scroll handler writes an inline box-shadow, hence !important. */
+body.feel-water-notice #site-nav { background: linear-gradient(var(--wn-ink), var(--wn-ink)) 0 100% / 100% 1px no-repeat, linear-gradient(var(--wn-ink), var(--wn-ink)) 0 calc(100% - 4px) / 100% 4px no-repeat, var(--wn-sheet) !important; border-bottom: 0; padding-bottom: 6px; box-shadow: none !important; }
+body.feel-water-notice #site-nav .nav-logo span span span { color: var(--color-text) !important; font-family: var(--font-heading); font-weight: 700; }
+body.feel-water-notice #site-nav .nav-logo span span span:first-child { color: var(--wn-ink) !important; }
+body.feel-water-notice #site-nav .nav-logo svg, body.feel-water-notice #site-nav .nav-logo img { filter: none; }
+body.feel-water-notice #site-nav .nav-links a, body.feel-water-notice #site-nav .nav-dropdown-trigger { color: var(--color-text); border-radius: 0; font-size: 17px; font-weight: 500; background: transparent; }
+body.feel-water-notice #site-nav .nav-links a:hover, body.feel-water-notice #site-nav .nav-links a[aria-current], body.feel-water-notice #site-nav .nav-dropdown-trigger:hover, body.feel-water-notice #site-nav .nav-dropdown[data-open] .nav-dropdown-trigger { color: var(--color-text); background: var(--wn-hl); box-shadow: none; }
+body.feel-water-notice #site-nav .nav-phone { font-family: var(--font-heading); font-size: 21px; font-weight: 700; color: var(--wn-ink); }
+body.feel-water-notice #site-nav .nav-phone svg { stroke: var(--wn-ink); }
+body.feel-water-notice #site-nav .nav-actions .btn, body.feel-water-notice #site-nav .nav-actions .btn-primary { height: 48px; padding: 0 22px; font-size: 17px; }
+body.feel-water-notice #site-nav .nav-hamburger span { background: var(--wn-ink); border-radius: 0; }
+body.feel-water-notice #site-nav .nav-dropdown-menu { border-radius: 0; box-shadow: none; border: 2px solid var(--wn-ink); padding: 0; background: var(--wn-sheet); }
+body.feel-water-notice #site-nav .nav-dropdown-menu a { color: var(--color-text); border-bottom: 1px solid var(--wn-faint); font-size: 17px; }
+body.feel-water-notice #site-nav .nav-dropdown-menu a:hover { background: var(--wn-tint); box-shadow: inset 4px 0 0 var(--wn-hi); }
+body.feel-water-notice #site-nav .nav-mobile-menu { background: var(--wn-sheet); border-top: 1px solid var(--wn-ink); }
+body.feel-water-notice #site-nav .nav-mobile-menu a { color: var(--color-text); border-bottom-color: var(--wn-faint); font-size: 19px; padding: 14px 24px; }
+body.feel-water-notice #site-nav .nav-mobile-menu .mobile-cta { color: var(--white); background: var(--wn-ink); }
+body.feel-water-notice #site-nav .nav-inner::after { display: none; }
+
+/* Hero: the notice front. Stamp, slab headline, sub, calls, then the watering-calendar strip (::after on the content).
+   The photo is a printed insert on the right: a white mat, a slate hairline, and under it a perforated stub with meter-register boxes. */
+body.feel-water-notice #hero { background: transparent !important; border: 0; min-height: 740px; display: block; position: relative; padding: 104px 0 136px; overflow: hidden; isolation: isolate; }
+body.feel-water-notice #hero .hero-bg { display: block !important; position: absolute; inset: auto; top: 96px; bottom: 196px; right: max(40px, calc((100% - var(--max-w)) / 2 + 40px)); left: auto; width: min(40%, 540px) !important; height: auto; max-width: none; margin: 0; opacity: 1 !important; filter: none !important; transform: none; clip-path: none; background-size: cover; background-position: center; border: 1px solid var(--wn-ink); box-shadow: 0 0 0 14px var(--wn-sheet), 0 0 0 15px var(--wn-rule); z-index: 0; overflow: visible; }
+body.feel-water-notice #hero .hero-bg::before { content: ""; display: block; position: absolute; inset: auto; top: calc(100% + 15px); left: -15px; right: -15px; height: 8px; background: var(--wn-perf), var(--wn-sheet) !important; opacity: 1; }
+body.feel-water-notice #hero .hero-bg::after { content: ""; display: block; position: absolute; inset: auto; top: calc(100% + 23px); left: -15px; right: -15px; height: 64px; border: 1px solid var(--wn-rule); border-top: 0;
+  background: repeating-linear-gradient(90deg, var(--wn-ink) 0 1px, transparent 1px 30px) 28px 50% / 151px 32px no-repeat, linear-gradient(var(--wn-ink), var(--wn-ink)) 28px 16px / 151px 1px no-repeat, linear-gradient(var(--wn-ink), var(--wn-ink)) 28px 47px / 151px 1px no-repeat, linear-gradient(var(--wn-hi), var(--wn-hi)) 149px 17px / 30px 30px no-repeat, var(--wn-sheet) !important; opacity: 1; }
+body.feel-water-notice #hero .hero-split { grid-template-columns: 1fr !important; max-width: none; margin: 0; }
+body.feel-water-notice #hero .hero-content { position: relative; z-index: 2; max-width: 52%; margin: 0; text-align: left; color: var(--color-text); }
+body.feel-water-notice #hero .hero-established, body.feel-water-notice #hero .hero-form-card { display: none; }
+body.feel-water-notice #hero .hero-tagline { display: inline-block; width: auto; margin: 0 0 32px; padding: 9px 20px; border: 3px solid var(--wn-ink); box-shadow: inset 0 0 0 3px var(--wn-paper), inset 0 0 0 4px var(--wn-ink); background: transparent; color: var(--wn-ink) !important; font-family: var(--font-heading); font-weight: 700; font-size: 19px; line-height: 1.3; letter-spacing: 0; text-transform: none; text-align: left; transform: rotate(-1.5deg); transform-origin: left center; }
+body.feel-water-notice #hero .hero-headline, body.feel-water-notice #hero .hero-content h1 { color: var(--color-text) !important; font-size: clamp(48px, 6.2vw, 92px); line-height: 0.98; font-weight: 700; letter-spacing: -0.01em; max-width: 13ch; margin: 0 0 28px; text-align: left; }
+body.feel-water-notice #hero .hero-sub { color: var(--text-mid) !important; font-size: 20px; line-height: 1.55; max-width: 44ch; margin: 0 0 36px; text-align: left; }
+body.feel-water-notice #hero .hero-sub.referral-line { font-size: 15px; margin: 18px 0 0; }
+body.feel-water-notice #hero .hero-ctas { flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 18px 28px; }
+body.feel-water-notice #hero .hero-phone { display: inline-flex; align-items: center; gap: 12px; color: var(--wn-ink) !important; font-family: var(--font-heading); font-weight: 700; font-size: clamp(24px, 2.4vw, 32px); line-height: 1; min-height: 58px; padding: 0 4px; background: var(--wn-hl); }
+body.feel-water-notice #hero .hero-phone svg { width: 24px; height: 24px; stroke: var(--wn-ink); }
+body.feel-water-notice #hero .hero-phone:hover { background: linear-gradient(transparent 20%, color-mix(in srgb, var(--color-accent) 85%, transparent) 20% 92%, transparent 92%); }
+/* The watering-calendar strip: a week grid drawn as a mask over slate, with Monday and Thursday filled lime around a water drop. Decorative only (no text node). */
+body.feel-water-notice #hero .hero-content::after { content: ""; display: block; width: min(100%, 448px); aspect-ratio: 448 / 84; margin-top: 52px;
+  background: linear-gradient(var(--wn-hi), var(--wn-hi)) 0% 100% / 14.2857% 66.667% no-repeat, linear-gradient(var(--wn-hi), var(--wn-hi)) 50% 100% / 14.2857% 66.667% no-repeat, var(--wn-ink);
+  -webkit-mask: var(--wn-week) 0 0 / 100% 100% no-repeat; mask: var(--wn-week) 0 0 / 100% 100% no-repeat; }
+/* No load motion: the gate screenshots capture keyframes mid-flight. */
+body.feel-water-notice #hero .hero-tagline, body.feel-water-notice #hero .hero-headline, body.feel-water-notice #hero .hero-sub, body.feel-water-notice #hero .hero-ctas, body.feel-water-notice #hero .hero-bg { animation: none; opacity: 1; }
+body.feel-water-notice #hero .hero-headline, body.feel-water-notice #hero .hero-sub, body.feel-water-notice #hero .hero-ctas, body.feel-water-notice #hero .hero-bg { transform: none; }
+
+/* Trust: a row of checked boxes on a white strip between two slate rules. The icon becomes a lime-filled checkbox with a slate tick. */
+body.feel-water-notice #trust-band { background: var(--wn-sheet) !important; border: 0; border-top: 2px solid var(--wn-ink); border-bottom: 1px solid var(--wn-ink); padding: 0 !important; }
+body.feel-water-notice #trust-band .trust-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border: 0; background: transparent; }
+body.feel-water-notice #trust-band .trust-grid .trust-item { display: flex; align-items: flex-start; gap: 16px; width: auto; background: transparent !important; border: 0 !important; border-left: 1px solid var(--wn-faint) !important; border-radius: 0 !important; box-shadow: none; padding: 26px 24px 28px !important; text-align: left; }
+body.feel-water-notice #trust-band .trust-grid .trust-item:first-child { border-left: 0 !important; padding-left: 0 !important; }
+body.feel-water-notice #trust-band .trust-icon { display: none !important; }
+body.feel-water-notice #trust-band .trust-item::before { content: ""; flex-shrink: 0; width: 26px; height: 26px; margin-top: 1px; border: 2px solid var(--wn-ink); background: var(--wn-tick) 50% 50% / 100% 100% no-repeat, var(--wn-hi); box-sizing: border-box; }
+body.feel-water-notice #trust-band .trust-text { display: block; }
+body.feel-water-notice #trust-band .trust-text strong { display: block; font-family: var(--font-heading); font-size: 21px; font-weight: 700; line-height: 1.2; color: var(--color-text); margin: 0 0 4px; }
+body.feel-water-notice #trust-band .trust-text span { font-size: 16px; color: var(--text-mid); }
+
+/* Services: tear-off calendar sheets. The icon row becomes a slate header strip, a perforation runs under it, the body sits on white. */
+body.feel-water-notice #services .services-grid { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 28px !important; max-width: none; margin: 0; background: transparent; border: 0; }
+body.feel-water-notice #services .services-grid:not(.services-grid--3col) { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+body.feel-water-notice #services .service-card, body.feel-water-notice #services .service-card-modal { position: relative; display: flex; flex-direction: column; align-items: flex-start; background: var(--wn-sheet) !important; border: 2px solid var(--wn-ink) !important; border-radius: 0 !important; box-shadow: none !important; padding: 0 28px 26px !important; overflow: visible; transition: box-shadow var(--transition); }
+body.feel-water-notice #services .service-card::before, body.feel-water-notice #services .service-card-modal::before { content: ""; position: absolute; top: 60px; left: 0; right: 0; height: 8px; background: var(--wn-perf); }
+body.feel-water-notice #services .service-card:hover, body.feel-water-notice #services .service-card-modal:hover { transform: none; box-shadow: 8px 8px 0 var(--wn-faint) !important; }
+body.feel-water-notice #services .service-icon { display: flex; align-items: center; justify-content: flex-start; align-self: stretch; width: auto; height: 60px; margin: 0 -28px 30px; padding: 0 28px; border-radius: 0; background: var(--wn-ink); color: var(--white); border: 0; box-shadow: none; }
+body.feel-water-notice #services .service-icon svg { width: 28px; height: 28px; stroke: var(--white); }
+body.feel-water-notice #services .service-card h3, body.feel-water-notice #services .service-card-modal h3 { font-size: 27px; font-weight: 700; line-height: 1.12; margin: 0 0 12px; color: var(--color-text); }
+body.feel-water-notice #services .service-card:hover h3, body.feel-water-notice #services .service-card-modal:hover h3 { background: var(--wn-hl); }
+body.feel-water-notice #services .service-card p, body.feel-water-notice #services .service-card-modal p { font-size: 17px; line-height: 1.6; margin: 0; color: var(--text-mid); }
+body.feel-water-notice #services .service-learn-more, body.feel-water-notice #services .service-toggle { margin-top: auto; padding-top: 16px; font-size: 17px; font-weight: 600; color: var(--wn-ink); text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 2px; text-decoration-color: var(--wn-hi); min-height: 44px; display: inline-flex; align-items: center; background: none; border: 0; }
+
+/* Why us: the photo is another printed insert on a white mat; the value props are a checklist of checked boxes under a slate rule. */
+body.feel-water-notice #why-us { background: transparent !important; }
+body.feel-water-notice #why-us .why-us-grid { gap: 80px; align-items: start; }
+body.feel-water-notice #why-us .why-us-photo { border-radius: 0 !important; border: 1px solid var(--wn-ink); box-shadow: 0 0 0 14px var(--wn-sheet), 0 0 0 15px var(--wn-rule) !important; margin: 15px; }
+body.feel-water-notice #why-us .why-us-photo img { border-radius: 0 !important; max-width: 100%; }
+body.feel-water-notice #why-us .value-props { margin-top: 40px; gap: 0; border-top: 2px solid var(--wn-ink); }
+body.feel-water-notice #why-us .value-prop { display: flex; align-items: flex-start; gap: 18px; padding: 22px 0 !important; border: 0 !important; border-bottom: 1px solid var(--wn-faint) !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+body.feel-water-notice #why-us .value-prop::before { content: ""; flex-shrink: 0; width: 26px; height: 26px; margin-top: 3px; border: 2px solid var(--wn-ink); box-sizing: border-box; background: var(--wn-tick) 50% 50% / 100% 100% no-repeat, var(--wn-hi); }
+body.feel-water-notice #why-us .vp-icon { display: none; }
+body.feel-water-notice #why-us .vp-text h4 { font-size: 23px; font-weight: 700; line-height: 1.2; margin: 0 0 6px; color: var(--color-text); }
+body.feel-water-notice #why-us .vp-text h3 { font-size: 23px; font-weight: 700; line-height: 1.2; margin: 0 0 6px; color: var(--color-text); }
+body.feel-water-notice #why-us .vp-text p { font-size: 17px; line-height: 1.6; color: var(--text-mid); }
+
+/* Process (home): a meter reading. Each step marker is a dial; its lime arc fills a quarter more at each step. A slate rail joins the dials. */
+body.feel-water-notice #process .process-grid { position: relative; display: grid; grid-template-columns: 1fr !important; gap: 0 !important; margin: 0; max-width: 900px; counter-reset: process-step; }
+body.feel-water-notice #process .process-grid::before { content: "" !important; display: block !important; position: absolute; top: 40px; bottom: 40px; left: 39px; right: auto; width: 2px; height: auto; border: 0; background: var(--wn-ink); opacity: 1; z-index: 0; }
+body.feel-water-notice #process .process-grid::after { display: none !important; }
+body.feel-water-notice #process .process-step { --wn-p: 25%; counter-increment: process-step; position: relative; z-index: 1; display: grid !important; grid-template-columns: 80px minmax(0, 1fr); column-gap: 32px; text-align: left; background: transparent !important; border: 0 !important; border-bottom: 1px solid var(--wn-faint) !important; border-radius: 0 !important; box-shadow: none !important; padding: 28px 0 !important; overflow: visible; }
+body.feel-water-notice #process .process-step:nth-child(2) { --wn-p: 50%; }
+body.feel-water-notice #process .process-step:nth-child(3) { --wn-p: 75%; }
+body.feel-water-notice #process .process-step:nth-child(n+4) { --wn-p: 100%; }
+body.feel-water-notice #process .process-step:last-child { border-bottom: 0 !important; }
+body.feel-water-notice #process .process-step:hover { transform: none; box-shadow: none !important; }
+body.feel-water-notice #process .process-step-header { display: flex; align-items: center; justify-content: center; width: 80px; height: 80px; min-height: 0; padding: 0; margin: 0; border-radius: 50% !important; border: 2px solid var(--wn-ink) !important; box-shadow: 0 0 0 6px var(--wn-paper); position: relative; z-index: 2;
+  background: radial-gradient(circle, var(--wn-sheet) 0 27px, var(--wn-ink) 27px 28.5px, transparent 29px), conic-gradient(from -135deg, var(--wn-hi) 0 calc(var(--wn-p) * 0.75), var(--wn-tint) calc(var(--wn-p) * 0.75) 75%, var(--wn-sheet) 75% 100%) !important; }
+body.feel-water-notice #process .process-step-header::before { content: counter(process-step) !important; position: static; left: auto; bottom: auto; display: block; font-family: var(--font-heading); font-size: 28px; font-weight: 700; line-height: 1; color: var(--wn-ink); opacity: 1; font-variant-numeric: lining-nums tabular-nums; }
+body.feel-water-notice #process .process-step-icon { display: none; }
+body.feel-water-notice #process .process-step-body { padding: 8px 0 0; }
+body.feel-water-notice #process .process-step h3 { font-size: 25px; font-weight: 700; line-height: 1.15; margin: 0 0 8px; color: var(--color-text); }
+body.feel-water-notice #process .process-step p { font-size: 18px; line-height: 1.6; color: var(--text-mid); max-width: 60ch; }
+
+/* Gallery: each photo is a printed insert on a white mat, its caption a label strip below the photo inside the mat. */
+body.feel-water-notice .gallery-grid { gap: 40px; }
+body.feel-water-notice .gallery-item, body.feel-water-notice .process-result-img { border-radius: 0 !important; border: 1px solid var(--wn-ink); box-shadow: 0 0 0 10px var(--wn-sheet), 0 0 0 11px var(--wn-rule) !important; margin: 11px; }
+body.feel-water-notice .gallery-item img, body.feel-water-notice .process-result-img img { border-radius: 0 !important; }
+body.feel-water-notice .gallery-caption { left: 0; right: 0; bottom: 0; max-width: none; padding: 8px 14px; background: var(--wn-sheet); border-top: 1px solid var(--wn-ink); color: var(--color-text); font-size: 15px; font-weight: 600; line-height: 1.35; }
+body.feel-water-notice .gallery-header .btn-outline-dark { white-space: normal !important; }
+
+/* Stats: meter windows. Each figure reads through a boxed register window on white; the label sits under it. */
+body.feel-water-notice #stats-bar { background: transparent !important; background-image: none !important; border: 0; padding: 40px 0 72px; color: var(--color-text); }
+body.feel-water-notice #stats-bar .stats-grid { gap: 32px; text-align: left; border-top: 2px solid var(--wn-ink); padding-top: 36px; }
+body.feel-water-notice #stats-bar .stat-item { padding: 0; border: 0; color: var(--color-text); text-align: left; }
+body.feel-water-notice #stats-bar .stat-value { display: inline-block; padding: 10px 18px 8px; border: 2px solid var(--wn-ink); background: var(--wn-sheet); box-shadow: inset 0 0 0 4px var(--wn-sheet), inset 0 0 0 5px var(--wn-faint); color: var(--wn-ink) !important; font-family: var(--font-heading); font-size: clamp(40px, 4.4vw, 62px); font-weight: 700; line-height: 1; font-variant-numeric: lining-nums tabular-nums; margin-bottom: 14px; }
+body.feel-water-notice #stats-bar .stat-label { display: block; font-size: 18px; color: var(--text-mid) !important; }
+
+/* Call band: a slate plate with a lime rule across the top; the button turns lime with slate type. */
+body.feel-water-notice #cta-band { background: linear-gradient(var(--wn-hi), var(--wn-hi)) 0 0 / 100% 8px no-repeat, var(--wn-ink) !important; border: 0; padding: 100px 0 92px; text-align: left; }
+body.feel-water-notice #cta-band .cta-band-inner { align-items: center; gap: 40px; }
+body.feel-water-notice #cta-band h2, body.feel-water-notice #cta-band .cta-band-headline { color: var(--white); font-size: clamp(36px, 4.6vw, 64px); line-height: 1.02; font-weight: 700; max-width: 18ch; margin: 0; }
+body.feel-water-notice #cta-band p, body.feel-water-notice #cta-band .cta-band-sub { color: rgba(255,255,255,0.9); font-size: 19px; line-height: 1.55; max-width: 48ch; margin: 18px 0 0; }
+body.feel-water-notice #cta-band .cta-band-sub.referral-line { font-size: 15px; }
+body.feel-water-notice #cta-band .cta-band-actions { flex-direction: column; align-items: flex-start; gap: 18px; }
+body.feel-water-notice #cta-band .btn-primary, body.feel-water-notice #cta-band .cta-band-btn { background: var(--wn-hi) !important; color: var(--color-text) !important; }
+body.feel-water-notice #cta-band .btn-primary:hover, body.feel-water-notice #cta-band .cta-band-btn:hover { background: var(--white) !important; box-shadow: inset 0 -6px 0 var(--wn-hi); }
+body.feel-water-notice #cta-band .cta-band-phone { display: inline-flex; align-items: center; gap: 12px; color: var(--white); font-family: var(--font-heading); font-weight: 700; font-size: clamp(26px, 2.6vw, 34px); line-height: 1; min-height: 52px; border-bottom: 3px solid var(--wn-hi); }
+body.feel-water-notice #cta-band .cta-band-phone svg { width: 24px; height: 24px; stroke: var(--white); }
+
+/* FAQ: the notice's questions and answers, all open, under thin slate rules; each question carries a small lime square bullet. */
+body.feel-water-notice #faq .faq-list, body.feel-water-notice .svc-faq-list { max-width: none; margin: 0; gap: 0 64px; background: transparent; border: 0; }
+body.feel-water-notice #faq .faq-item, body.feel-water-notice .svc-faq-item, body.feel-water-notice .faq-section .faq-item { background: transparent !important; border: 0 !important; border-top: 1px solid var(--wn-ink) !important; border-radius: 0 !important; box-shadow: none !important; margin: 0 !important; padding: 26px 0 30px; }
+body.feel-water-notice #faq .faq-question, body.feel-water-notice .svc-faq-question, body.feel-water-notice .faq-section .faq-question { display: flex; align-items: baseline; justify-content: flex-start; gap: 14px; padding: 0 0 10px; font-family: var(--font-heading); font-size: 23px; line-height: 1.25; font-weight: 700; color: var(--color-text); background: none; min-height: 44px; text-align: left; }
+body.feel-water-notice #faq .faq-question::before, body.feel-water-notice .svc-faq-question::before, body.feel-water-notice .faq-section .faq-question::before { content: ""; flex-shrink: 0; width: 14px; height: 14px; border: 2px solid var(--wn-ink); background: var(--wn-hi); transform: translateY(1px); }
+body.feel-water-notice #faq .faq-question:hover, body.feel-water-notice .svc-faq-question:hover { background: none; color: var(--color-text); }
+body.feel-water-notice #faq .faq-icon { width: 32px; height: 32px; margin-left: auto; flex-shrink: 0; border-radius: 0; background: transparent; border: 2px solid var(--wn-ink); color: var(--wn-ink); font-size: 20px; }
+body.feel-water-notice #faq .faq-answer-inner, body.feel-water-notice .svc-faq-answer, body.feel-water-notice .faq-section .faq-answer { padding: 0 0 0 30px; font-size: 18px; line-height: 1.65; color: var(--text-mid); max-width: 64ch; }
+body.feel-water-notice .faq-question svg, body.feel-water-notice .svc-faq-question svg { color: var(--wn-ink); stroke: var(--wn-ink); }
+
+/* Service areas: address labels. White boxes with a slate frame and a lime tab down the left edge. */
+body.feel-water-notice #service-areas .areas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; margin-top: 0; background: transparent; border: 0; }
+body.feel-water-notice .area-card-name { white-space: normal; overflow: visible; text-overflow: clip; }
+body.feel-water-notice .area-card { background: var(--wn-sheet) !important; border: 2px solid var(--wn-ink) !important; border-left-width: 10px !important; border-left-color: var(--wn-hi) !important; border-radius: 0 !important; box-shadow: none !important; padding: 18px 22px !important; font-family: var(--font-heading); font-size: 22px; font-weight: 700; color: var(--color-text); min-height: 64px; width: 100%; }
+body.feel-water-notice .area-card:hover { transform: none; color: var(--color-text); background: var(--wn-tint) !important; }
+body.feel-water-notice .area-card-arrow { display: none; }
+body.feel-water-notice .area-pills { gap: 12px; }
+body.feel-water-notice .area-pill { border: 2px solid var(--wn-ink); border-radius: 0; padding: 10px 18px; min-height: 48px; font-size: 17px; font-weight: 600; color: var(--color-text); background: var(--wn-sheet); }
+body.feel-water-notice .area-pill:hover { background: var(--wn-hl), var(--wn-sheet); }
+
+/* Quote form: the tear-off reply coupon. A white slip inside a dashed slate cut line, a scissors mark riding the line at top left. */
+body.feel-water-notice #contact { background: var(--wn-tint) !important; border-top: 2px solid var(--wn-ink); color: var(--color-text); }
+body.feel-water-notice #contact .contact-info h2 { color: var(--color-text); }
+body.feel-water-notice #contact .contact-info > p { color: var(--text-mid); font-size: 19px; margin-top: 20px; }
+body.feel-water-notice #contact .contact-detail-icon { border-radius: 0; background: var(--wn-sheet); border: 2px solid var(--wn-ink); color: var(--wn-ink); }
+body.feel-water-notice #contact .contact-detail-text strong { text-transform: none; letter-spacing: 0; font-size: 16px; color: var(--text-mid); }
+body.feel-water-notice #contact .contact-detail-text a, body.feel-water-notice #contact .contact-detail-text span { font-family: var(--font-heading); font-size: 25px; font-weight: 700; color: var(--wn-ink); }
+body.feel-water-notice #contact .contact-detail-text .referral-line { font-size: 15px; color: var(--text-mid); font-family: var(--font-body); font-weight: 400; }
+body.feel-water-notice .contact-form, body.feel-water-notice .contact-form-wrap, body.feel-water-notice .quote-form-card, body.feel-water-notice .hero-form-card { position: relative; background: var(--wn-sheet) !important; border: 2px dashed var(--wn-ink) !important; border-radius: 0 !important; box-shadow: none !important; padding: 44px 36px 34px !important; max-width: none; color: var(--color-text); overflow: visible; }
+body.feel-water-notice .contact-form::before, body.feel-water-notice .quote-form-card::before { content: "\2702"; position: absolute; top: -17px; left: 28px; padding: 0 8px; background: var(--wn-tint); color: var(--wn-ink); font-size: 26px; line-height: 1; }
+body.feel-water-notice .quote-form-section .quote-form-card::before { background: var(--wn-paper); }
+body.feel-water-notice #contact .form-group label, body.feel-water-notice .form-group label, body.feel-water-notice .quote-form label { text-transform: none; letter-spacing: 0; font-size: 16px; font-weight: 600; color: var(--color-text); }
+body.feel-water-notice #contact .form-group input, body.feel-water-notice #contact .form-group select, body.feel-water-notice #contact .form-group textarea, body.feel-water-notice input, body.feel-water-notice select, body.feel-water-notice textarea { border-radius: 0 !important; background: var(--wn-sheet) !important; border: 0 !important; border-bottom: 2px solid var(--wn-ink) !important; box-shadow: inset 0 0 0 1px var(--wn-faint); font-size: 18px; min-height: 54px; color: var(--color-text) !important; }
+body.feel-water-notice #contact .form-group input::placeholder, body.feel-water-notice #contact .form-group textarea::placeholder { color: #66737C; }
+body.feel-water-notice .form-group input:focus, body.feel-water-notice .form-group select:focus, body.feel-water-notice .form-group textarea:focus, body.feel-water-notice .quote-form input:focus, body.feel-water-notice .quote-form select:focus, body.feel-water-notice .quote-form textarea:focus { box-shadow: inset 0 0 0 2px var(--wn-ink); outline: 3px solid var(--wn-hi); outline-offset: 0; }
+body.feel-water-notice .quote-form-submit, body.feel-water-notice .form-submit { width: 100%; justify-content: center; }
+body.feel-water-notice #contact .form-disclaimer, body.feel-water-notice .form-disclaimer, body.feel-water-notice #contact .form-disclaimer a { text-align: left; font-size: 15px; color: var(--text-mid) !important; }
+body.feel-water-notice .contact-detail-icon, body.feel-water-notice .form-thank-you-icon { border-radius: 0; }
+
+/* Footer: the bill stub. A perforated edge (paper half-holes) tops a deep slate block of ruled columns. Inline-coloured NAP links stay light. */
+body.feel-water-notice #site-footer { position: relative; background: var(--wn-deep) !important; color: rgba(255,255,255,0.84); border-top: 0; padding-top: 12px; }
+body.feel-water-notice #site-footer::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 12px; background: radial-gradient(circle at 50% 0, var(--wn-paper) 0 6px, transparent 6.5px) 0 0 / 20px 12px repeat-x; }
+body.feel-water-notice #site-footer .footer-top { padding: 56px 0 36px; }
+body.feel-water-notice #site-footer .footer-grid { gap: 0; border-top: 1px solid rgba(255,255,255,0.3); }
+body.feel-water-notice #site-footer .footer-col { padding: 26px 26px 26px; border-left: 1px solid rgba(255,255,255,0.18); }
+body.feel-water-notice #site-footer .footer-col:first-child { border-left: 0; padding-left: 0; }
+body.feel-water-notice #site-footer h4, body.feel-water-notice #site-footer .footer-col h4, body.feel-water-notice #site-footer .footer-col:first-child h4 { font-family: var(--font-heading); font-size: 21px; font-weight: 700; text-transform: none; letter-spacing: 0; color: var(--white); }
+body.feel-water-notice #site-footer .footer-col p, body.feel-water-notice #site-footer .footer-nap, body.feel-water-notice #site-footer .footer-col:first-child > p { font-size: 16px; color: rgba(255,255,255,0.84); }
+body.feel-water-notice #site-footer a[style], body.feel-water-notice #site-footer .footer-brand-link { color: var(--white) !important; }
+body.feel-water-notice #site-footer .footer-col ul li a { color: rgba(255,255,255,0.88); font-size: 16px; min-height: 44px; display: inline-flex; align-items: center; }
+body.feel-water-notice #site-footer .footer-col ul li a:hover { color: var(--white); text-decoration: underline; text-decoration-color: var(--wn-hi); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+body.feel-water-notice #site-footer .footer-social a { border-radius: 0; border-color: rgba(255,255,255,0.5); color: var(--white); }
+body.feel-water-notice #site-footer .footer-disclaimer, body.feel-water-notice #site-footer .footer-bottom, body.feel-water-notice #site-footer .footer-bottom a { color: rgba(255,255,255,0.76); border-top-color: rgba(255,255,255,0.22); font-size: 14px; }
+body.feel-water-notice #mobile-cta { background: var(--wn-ink); color: var(--white); font-family: var(--font-heading); font-weight: 700; font-size: 20px; letter-spacing: 0; box-shadow: none; border-top: 5px solid var(--wn-hi); padding: 16px 20px; }
+
+/* Inner pages: service and area heads are the same notice front. The section hides its inline photo (size 0); ::after redraws it as a matted insert on the right,
+   ::before puts the perforated stub under it. Eyebrows become stamps; cards become white slips with a slate header rule; the step strip gets dials. */
+body.feel-water-notice .svc-hero, body.feel-water-notice .area-hero, body.feel-water-notice .cg-hero { background-color: transparent !important; background-size: 0 0 !important; border: 0; border-bottom: 2px solid var(--wn-ink); min-height: 0; display: block; position: relative; overflow: hidden; color: var(--color-text); }
+body.feel-water-notice .svc-hero::after, body.feel-water-notice .area-hero::after { content: ""; display: block; position: absolute; inset: auto; top: 80px !important; bottom: 120px !important; left: auto !important; right: max(40px, calc((100% - var(--max-w)) / 2 + 40px)) !important; width: min(38%, 480px) !important; background: inherit !important; background-size: cover !important; background-position: center !important; border: 1px solid var(--wn-ink); box-shadow: 0 0 0 14px var(--wn-sheet), 0 0 0 15px var(--wn-rule); opacity: 1; pointer-events: none; }
+body.feel-water-notice .svc-hero::before, body.feel-water-notice .area-hero::before { content: "" !important; display: block !important; position: absolute; inset: auto; bottom: 64px !important; top: auto !important; left: auto !important; right: calc(max(40px, calc((100% - var(--max-w)) / 2 + 40px)) - 15px) !important; width: calc(min(38%, 480px) + 30px) !important; height: 41px !important; border: 1px solid var(--wn-rule); border-top: 0; background: var(--wn-perf) 0 0 / 12px 8px repeat-x, var(--wn-sheet) !important; opacity: 1 !important; pointer-events: none; z-index: 1; }
+body.feel-water-notice .cg-hero::after, body.feel-water-notice .cg-hero::before { display: none !important; }
+body.feel-water-notice .svc-hero .container, body.feel-water-notice .area-hero .container, body.feel-water-notice .cg-hero .container { position: relative; z-index: 1; padding-top: 88px; padding-bottom: 104px; text-align: left; }
+body.feel-water-notice .svc-hero-eyebrow, body.feel-water-notice .svc-hero .section-eyebrow, body.feel-water-notice .area-hero .section-eyebrow, body.feel-water-notice .cg-hero-eyebrow, body.feel-water-notice .faq-hero .section-eyebrow, body.feel-water-notice .contact-hero .section-eyebrow { display: inline-block; background: transparent; border: 3px solid var(--wn-ink); box-shadow: inset 0 0 0 3px var(--wn-paper), inset 0 0 0 4px var(--wn-ink); padding: 8px 18px; color: var(--wn-ink) !important; font-family: var(--font-heading); font-size: 18px !important; font-weight: 700 !important; letter-spacing: 0 !important; text-transform: none !important; margin-bottom: 28px; transform: rotate(-1.5deg); transform-origin: left center; }
+body.feel-water-notice .svc-hero h1, body.feel-water-notice .area-hero h1, body.feel-water-notice .cg-hero h1, body.feel-water-notice .faq-hero h1, body.feel-water-notice .contact-hero h1 { color: var(--color-text) !important; font-size: clamp(42px, 5.4vw, 80px); line-height: 1; font-weight: 700; max-width: 54%; margin: 0 0 24px; }
+body.feel-water-notice .svc-hero p, body.feel-water-notice .area-hero p, body.feel-water-notice .cg-hero-subheadline, body.feel-water-notice .faq-hero p, body.feel-water-notice .contact-hero p { color: var(--text-mid) !important; font-size: 20px; line-height: 1.55; max-width: 50%; margin: 0 0 36px; }
+body.feel-water-notice .svc-hero-actions { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 18px 24px; }
+body.feel-water-notice .svc-hero-actions .btn-outline-white { background: var(--wn-hl); color: var(--wn-ink); border: 0; font-size: clamp(22px, 2.2vw, 30px); font-weight: 700; height: auto; min-height: 58px; padding: 0 4px; }
+body.feel-water-notice .svc-hero-actions .btn-outline-white svg { stroke: var(--wn-ink); }
+body.feel-water-notice .svc-local-intro .container { max-width: var(--max-w); }
+body.feel-water-notice .svc-local-intro h2 { max-width: 22ch; margin-bottom: 26px; }
+body.feel-water-notice .svc-local-intro-body { font-size: 19px; line-height: 1.65; max-width: 66ch; }
+body.feel-water-notice .svc-benefits, body.feel-water-notice .svc-applications, body.feel-water-notice .svc-specs, body.feel-water-notice .related-services, body.feel-water-notice .svc-faqs, body.feel-water-notice .faq-section, body.feel-water-notice .area-faq, body.feel-water-notice .quote-form-section { background: transparent !important; }
+body.feel-water-notice .benefits-grid, body.feel-water-notice .specs-grid, body.feel-water-notice .applications-grid, body.feel-water-notice .related-grid { gap: 28px; margin-top: 44px; background: transparent; border: 0; }
+body.feel-water-notice .benefit-card, body.feel-water-notice .spec-item, body.feel-water-notice .application-item, body.feel-water-notice .related-card { position: relative; display: block; background: var(--wn-sheet) !important; border: 2px solid var(--wn-ink) !important; border-top-width: 10px !important; border-radius: 0 !important; box-shadow: none !important; padding: 28px 26px !important; }
+body.feel-water-notice .area-service-card, body.feel-water-notice .factor-item, body.feel-water-notice .concern-item, body.feel-water-notice .cg-toc-card, body.feel-water-notice .cg-range-card, body.feel-water-notice .cg-tldr-grid > * { background: var(--wn-sheet) !important; border: 2px solid var(--wn-ink) !important; border-radius: 0 !important; box-shadow: none !important; }
+body.feel-water-notice .cg-range-card, body.feel-water-notice .cg-toc-card { box-shadow: inset 0 0 0 4px var(--wn-sheet), inset 0 0 0 5px var(--wn-faint) !important; }
+body.feel-water-notice .benefit-card:hover, body.feel-water-notice .spec-item:hover, body.feel-water-notice .application-item:hover, body.feel-water-notice .related-card:hover { transform: none; box-shadow: 8px 8px 0 var(--wn-faint) !important; }
+body.feel-water-notice .benefit-icon, body.feel-water-notice .spec-icon { width: 50px; height: 50px; border-radius: 0; background: var(--wn-ink) !important; color: var(--white) !important; border: 0; }
+body.feel-water-notice .benefit-title, body.feel-water-notice .application-item h3, body.feel-water-notice .related-card h3, body.feel-water-notice .spec-label, body.feel-water-notice .area-service-card h3, body.feel-water-notice .factor-title { font-family: var(--font-heading); font-size: 24px; font-weight: 700; line-height: 1.15; letter-spacing: 0; text-transform: none; color: var(--color-text); margin: 0 0 8px; }
+body.feel-water-notice .benefit-body, body.feel-water-notice .spec-value, body.feel-water-notice .application-item p, body.feel-water-notice .related-card p, body.feel-water-notice .area-service-card p, body.feel-water-notice .factor-body { font-size: 17px; line-height: 1.6; color: var(--text-mid); }
+body.feel-water-notice .related-card-link, body.feel-water-notice .area-service-card a { color: var(--wn-ink); font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--wn-hi); text-underline-offset: 5px; font-size: 17px; min-height: 44px; display: inline-flex; align-items: center; }
+body.feel-water-notice .process-steps { position: relative; gap: 32px; margin-top: 44px; counter-reset: wn-step; }
+body.feel-water-notice .process-steps::before { content: "" !important; display: block !important; position: absolute; top: 34px; left: 34px; right: 34px; height: 2px; border: 0; background: var(--wn-ink) !important; }
+body.feel-water-notice .process-steps .process-step { --wn-p: 25%; position: relative; z-index: 1; align-items: flex-start; text-align: left; padding: 0; border: 0; background: transparent; }
+body.feel-water-notice .process-steps .process-step:nth-child(2) { --wn-p: 50%; }
+body.feel-water-notice .process-steps .process-step:nth-child(3) { --wn-p: 75%; }
+body.feel-water-notice .process-steps .process-step:nth-child(n+4) { --wn-p: 100%; }
+body.feel-water-notice .process-step-num { width: 68px; height: 68px; border-radius: 50%; border: 2px solid var(--wn-ink); box-shadow: 0 0 0 6px var(--wn-paper) !important; color: var(--wn-ink); font-family: var(--font-heading); font-size: 24px; font-weight: 700; margin: 0 0 22px; font-variant-numeric: lining-nums tabular-nums;
+  background: radial-gradient(circle, var(--wn-sheet) 0 22px, var(--wn-ink) 22px 23.5px, transparent 24px), conic-gradient(from -135deg, var(--wn-hi) 0 calc(var(--wn-p) * 0.75), var(--wn-tint) calc(var(--wn-p) * 0.75) 75%, var(--wn-sheet) 75% 100%) !important; }
+body.feel-water-notice .process-steps .process-step h3 { font-size: 24px; line-height: 1.15; }
+body.feel-water-notice .process-steps .process-step p { font-size: 17px; }
+
+/* FAQ and contact page heads: the same notice front, flush under the letterhead. */
+body.feel-water-notice .faq-hero, body.feel-water-notice .contact-hero { background: transparent !important; margin-top: 0; padding: 88px 0 72px; text-align: left; border-bottom: 2px solid var(--wn-ink); }
+body.feel-water-notice .faq-hero h1, body.feel-water-notice .contact-hero h1 { max-width: 20ch; }
+body.feel-water-notice .faq-hero p, body.feel-water-notice .contact-hero p { max-width: 56ch; margin-bottom: 0; }
+body.feel-water-notice .contact-promise { background: var(--wn-hi); color: var(--color-text); border-top: 2px solid var(--wn-ink); border-bottom: 2px solid var(--wn-ink); padding: 18px max(24px, calc((100% - var(--max-w)) / 2 + 24px)); }
+body.feel-water-notice .contact-promise p { font-size: 18px; font-weight: 600; color: var(--color-text); }
+body.feel-water-notice .contact-promise svg { stroke: var(--color-text); color: var(--color-text); }
+body.feel-water-notice .contact-info-card { background: var(--wn-sheet); border: 2px solid var(--wn-ink); border-radius: 0; box-shadow: none; }
+body.feel-water-notice .contact-info-label { text-transform: none; letter-spacing: 0; font-size: 16px; font-weight: 600; color: var(--text-mid); }
+body.feel-water-notice .contact-info-value { font-size: 18px; }
+body.feel-water-notice .contact-info-value a { font-family: var(--font-heading); font-size: 25px; font-weight: 700; color: var(--wn-ink); }
+body.feel-water-notice .contact-areas h2, body.feel-water-notice .faq-category-block h2 { font-size: clamp(28px, 3vw, 40px); font-weight: 700; color: var(--color-text); }
+body.feel-water-notice .faq-category-block h2 { padding-top: 22px; padding-bottom: 6px; background: var(--wn-double); }
+body.feel-water-notice .faq-categories-label { text-transform: none; letter-spacing: 0; font-size: 16px; font-weight: 600; color: var(--text-mid); }
+body.feel-water-notice .faq-cat-link { border-radius: 0; font-size: 17px; min-height: 44px; display: flex; align-items: center; color: var(--color-text); }
+body.feel-water-notice .faq-cat-link:hover, body.feel-water-notice .faq-cat-link.active { background: var(--wn-sheet); color: var(--color-text); box-shadow: inset 5px 0 0 var(--wn-hi); }
+
+/* Area pages: local FAQ in the same open, bulleted style; the estimate card is a small coupon. */
+body.feel-water-notice .area-faq .section-title { text-align: left !important; margin-bottom: 44px !important; }
+body.feel-water-notice .area-faq .faq-item { background: transparent !important; border: 0 !important; border-top: 1px solid var(--wn-ink) !important; border-radius: 0 !important; box-shadow: none !important; margin: 0 !important; }
+body.feel-water-notice .area-faq .faq-question { gap: 14px; padding: 22px 0; font-family: var(--font-heading); font-size: 23px; line-height: 1.25; font-weight: 700; color: var(--color-text); background: none; }
+body.feel-water-notice .area-faq .faq-question::before { content: ""; flex-shrink: 0; width: 14px; height: 14px; border: 2px solid var(--wn-ink); background: var(--wn-hi); }
+body.feel-water-notice .area-faq .faq-icon { width: 32px; height: 32px; flex-shrink: 0; margin-left: auto; border-radius: 0; background: transparent; border: 2px solid var(--wn-ink); color: var(--wn-ink); display: inline-flex; align-items: center; justify-content: center; font-size: 20px; }
+body.feel-water-notice .area-faq .faq-item.open .faq-icon { background: var(--wn-ink); color: var(--white); }
+body.feel-water-notice .area-faq .faq-answer-inner { padding: 0 0 24px 30px; font-size: 18px; line-height: 1.65; color: var(--text-mid); }
+body.feel-water-notice .area-cta-card { position: relative; background: var(--wn-sheet) !important; border: 2px dashed var(--wn-ink) !important; border-radius: 0 !important; box-shadow: none !important; overflow: visible; }
+body.feel-water-notice .area-cta-card p { font-size: 18px; }
+body.feel-water-notice .area-cta-phone { font-family: var(--font-heading); font-size: 28px; font-weight: 700; color: var(--wn-ink); min-height: 44px; }
+
+/* Cost guides: figures in the slab face; the breakdown is a bill's line-item table (slate header, ruled rows, tinted bands); the closing band is the slate plate. */
+body.feel-water-notice .cg-hero { padding: 0; }
+body.feel-water-notice .cg-hero h1 { max-width: 20ch; }
+body.feel-water-notice .cg-hero-subheadline { max-width: 58ch; }
+body.feel-water-notice .cg-tldr-eyebrow, body.feel-water-notice .cg-range-eyebrow { color: var(--wn-ink) !important; text-transform: none; letter-spacing: 0; font-size: 18px; font-weight: 700; }
+body.feel-water-notice .cg-tldr-label { text-transform: none; letter-spacing: 0; font-size: 16px; font-weight: 600; }
+body.feel-water-notice .cg-tldr-value, body.feel-water-notice .cg-range-figure { font-family: var(--font-heading); color: var(--wn-ink); font-weight: 700; font-variant-numeric: lining-nums tabular-nums; }
+body.feel-water-notice .cg-toc-title { text-transform: none; letter-spacing: 0; font-size: 20px; font-family: var(--font-heading); }
+body.feel-water-notice .cg-toc-list li::before { color: var(--wn-ink); font-size: 16px; }
+body.feel-water-notice .cg-toc-list a { font-size: 17px; }
+body.feel-water-notice .cg-range-basis { font-size: 16px; }
+body.feel-water-notice .cg-factors .section-heading, body.feel-water-notice .cg-breakdown .section-heading, body.feel-water-notice .cg-faq .section-heading { font-family: var(--font-heading); font-size: clamp(32px, 3.6vw, 48px); font-weight: 700; line-height: 1.06; margin-bottom: 32px; padding-top: 30px; background: var(--wn-double); }
+body.feel-water-notice .cg-section h2 { font-size: clamp(28px, 3vw, 40px); font-weight: 700; line-height: 1.1; }
+body.feel-water-notice .breakdown-table { font-size: 17px; background: var(--wn-sheet); border: 2px solid var(--wn-ink); border-collapse: collapse; }
+body.feel-water-notice .breakdown-table thead th { background: var(--wn-ink); color: var(--white); font-family: var(--font-heading); font-size: 18px; text-transform: none; letter-spacing: 0; }
+body.feel-water-notice .breakdown-table td { border-bottom: 1px solid var(--wn-faint); }
+body.feel-water-notice .breakdown-table tbody tr:nth-child(even) { background: var(--wn-tint); }
+body.feel-water-notice .breakdown-table td.price-cell { font-family: var(--font-heading); font-weight: 700; color: var(--wn-ink); }
+body.feel-water-notice .cg-faq-item h3 { font-family: var(--font-heading); font-size: 23px; line-height: 1.2; }
+body.feel-water-notice .cg-faq-item p { font-size: 18px; }
+body.feel-water-notice .cg-cta-band { background: linear-gradient(var(--wn-hi), var(--wn-hi)) 0 0 / 100% 8px no-repeat, var(--wn-ink); color: var(--white); text-align: left; padding: 96px 0 88px; }
+body.feel-water-notice .cg-cta-band .container { max-width: var(--max-w); }
+body.feel-water-notice .cg-cta-band h2 { color: var(--white); font-size: clamp(34px, 4.4vw, 60px); font-weight: 700; line-height: 1.02; max-width: 20ch; margin: 0 0 18px; }
+body.feel-water-notice .cg-cta-band p { color: rgba(255,255,255,0.9); font-size: 19px; max-width: 56ch; margin: 0 0 36px; }
+body.feel-water-notice .cg-cta-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; }
+body.feel-water-notice .cg-cta-band .btn-on-accent { display: inline-flex; align-items: center; min-height: 58px; padding: 0 28px; border-radius: 0; background: var(--wn-hi); color: var(--color-text); font-family: var(--font-heading); font-size: 19px; font-weight: 700; }
+body.feel-water-notice .cg-cta-band .btn-on-accent:hover { transform: none; background: var(--white); box-shadow: inset 0 -6px 0 var(--wn-hi); }
+body.feel-water-notice .cg-cta-band .btn-ghost-dark { display: inline-flex; align-items: center; min-height: 52px; padding: 0; border: 0; border-bottom: 3px solid var(--wn-hi); border-radius: 0; background: transparent; color: var(--white); font-family: var(--font-heading); font-size: clamp(22px, 2.4vw, 30px); font-weight: 700; }
+body.feel-water-notice .cg-cta-band .btn-ghost-dark:hover { background: transparent; color: var(--white); border-bottom-color: var(--white); }
+body.feel-water-notice .blog-card { background: var(--wn-sheet); border: 2px solid var(--wn-ink); border-top-width: 10px; border-radius: 0; box-shadow: none; }
+
+/* Mid widths: services fold to two sheets a row; the hero insert narrows. */
+@media (min-width: 901px) and (max-width: 1100px) {
+  body.feel-water-notice #services .services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  body.feel-water-notice #hero .hero-bg { width: 36% !important; }
+  body.feel-water-notice #hero .hero-content { max-width: 54%; }
+  body.feel-water-notice #trust-band .trust-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body.feel-water-notice #trust-band .trust-grid .trust-item:nth-child(3) { border-left: 0 !important; padding-left: 0 !important; }
+}
+
+/* Narrow screens (390px, one hand): the insert drops under the text at full width with its stub, sheets and checks stack, display type steps down, buttons go full width. */
+@media (max-width: 900px) {
+  body.feel-water-notice #hero { min-height: 0; padding: 48px 0 380px; }
+  body.feel-water-notice #hero .hero-bg { top: auto; bottom: 124px; left: 34px; right: 34px; width: auto !important; height: 220px; }
+  body.feel-water-notice #hero .hero-bg::after { height: 56px; background-position: 20px 50%, 20px 12px, 20px 43px, 141px 13px, 0 0 !important; }
+  body.feel-water-notice #hero .hero-content { max-width: 100%; margin: 0; }
+  body.feel-water-notice #hero .hero-content::after { margin-top: 40px; }
+  body.feel-water-notice #hero .hero-tagline { font-size: 17px; padding: 8px 16px; }
+  body.feel-water-notice #hero .hero-headline, body.feel-water-notice #hero .hero-content h1 { font-size: clamp(42px, 11.5vw, 52px); max-width: none; }
+  body.feel-water-notice #hero .hero-sub { font-size: 18px; max-width: none; }
+  body.feel-water-notice #hero .hero-ctas { flex-direction: column; align-items: stretch; }
+  body.feel-water-notice #hero .hero-ctas .btn, body.feel-water-notice #cta-band .btn-primary, body.feel-water-notice .svc-hero-actions .btn-primary { width: 100%; justify-content: center; }
+  body.feel-water-notice #hero .hero-phone { justify-content: center; }
+  body.feel-water-notice .section-title, body.feel-water-notice .contact-info h2, body.feel-water-notice .quote-form-card h2, body.feel-water-notice .svc-local-intro h2 { font-size: clamp(32px, 9vw, 42px); max-width: none; }
+  body.feel-water-notice .section-subtitle { max-width: none; font-size: 18px; }
+  body.feel-water-notice .services-header, body.feel-water-notice .process-header, body.feel-water-notice .faq-header, body.feel-water-notice .areas-header { margin-bottom: 36px; padding-top: 30px; }
+  body.feel-water-notice .gallery-header { display: block; }
+  body.feel-water-notice .gallery-header > div:first-child { margin-bottom: 24px; padding-top: 30px; }
+  body.feel-water-notice .gallery-header .btn-outline-dark { width: 100%; justify-content: center; }
+  body.feel-water-notice #trust-band .trust-grid { grid-template-columns: 1fr; }
+  body.feel-water-notice #trust-band .trust-grid .trust-item { border-left: 0 !important; border-top: 1px solid var(--wn-faint) !important; padding: 18px 0 !important; }
+  body.feel-water-notice #trust-band .trust-grid .trust-item:first-child { border-top: 0 !important; }
+  body.feel-water-notice #services .services-grid, body.feel-water-notice #services .services-grid:not(.services-grid--3col), body.feel-water-notice #stats-bar .stats-grid, body.feel-water-notice .benefits-grid, body.feel-water-notice .specs-grid, body.feel-water-notice .applications-grid, body.feel-water-notice .related-grid { grid-template-columns: 1fr !important; gap: 28px !important; }
+  body.feel-water-notice #services .service-card, body.feel-water-notice #services .service-card-modal { padding: 0 22px 22px !important; }
+  body.feel-water-notice #services .service-icon { margin: 0 -22px 26px; padding: 0 22px; }
+  body.feel-water-notice #why-us .why-us-grid { gap: 48px; }
+  body.feel-water-notice #process .process-grid::before { left: 31px; }
+  body.feel-water-notice #process .process-step { grid-template-columns: 64px minmax(0, 1fr); column-gap: 20px; }
+  body.feel-water-notice #process .process-step-header { width: 64px; height: 64px; background: radial-gradient(circle, var(--wn-sheet) 0 21px, var(--wn-ink) 21px 22.5px, transparent 23px), conic-gradient(from -135deg, var(--wn-hi) 0 calc(var(--wn-p) * 0.75), var(--wn-tint) calc(var(--wn-p) * 0.75) 75%, var(--wn-sheet) 75% 100%) !important; }
+  body.feel-water-notice #process .process-step-header::before { font-size: 22px; }
+  body.feel-water-notice #process .process-step h3 { font-size: 22px; }
+  body.feel-water-notice #process .process-step p { font-size: 17px; }
+  /* The step strip turns vertical: the rail runs down the left through the dials. */
+  body.feel-water-notice .process-steps { grid-template-columns: 1fr !important; gap: 32px !important; }
+  body.feel-water-notice .process-steps::before { top: 34px; bottom: 34px; left: 33px; right: auto; width: 2px; height: auto; }
+  body.feel-water-notice .process-steps .process-step { display: grid; grid-template-columns: 68px minmax(0, 1fr); column-gap: 20px; }
+  body.feel-water-notice .process-steps .process-step > :not(.process-step-num) { grid-column: 2; }
+  body.feel-water-notice .process-step-num { grid-row: 1 / span 3; margin: 0; }
+  body.feel-water-notice .contact-form, body.feel-water-notice .contact-form-wrap, body.feel-water-notice .quote-form-card { padding: 36px 20px 24px !important; }
+  body.feel-water-notice #stats-bar { padding: 24px 0 56px; }
+  body.feel-water-notice #stats-bar .stat-value { font-size: clamp(38px, 11vw, 52px); }
+  body.feel-water-notice #cta-band { padding: 72px 0 64px; }
+  body.feel-water-notice #cta-band .cta-band-inner { text-align: left; align-items: stretch; }
+  body.feel-water-notice #cta-band h2, body.feel-water-notice #cta-band .cta-band-headline { font-size: clamp(32px, 9vw, 42px); max-width: none; }
+  body.feel-water-notice #cta-band p, body.feel-water-notice #cta-band .cta-band-sub { font-size: 18px; }
+  body.feel-water-notice #cta-band .cta-band-actions { width: 100%; }
+  body.feel-water-notice #cta-band .cta-band-phone { justify-content: center; font-size: clamp(24px, 7vw, 28px); }
+  body.feel-water-notice #faq .faq-question, body.feel-water-notice .svc-faq-question, body.feel-water-notice .faq-section .faq-question { font-size: 21px; }
+  body.feel-water-notice #faq .faq-answer-inner, body.feel-water-notice .svc-faq-answer, body.feel-water-notice .faq-section .faq-answer { padding-left: 0; font-size: 17px; }
+  body.feel-water-notice #site-footer .footer-grid { grid-template-columns: 1fr; }
+  body.feel-water-notice #site-footer .footer-col { border-left: 0; padding-left: 0; border-top: 1px solid rgba(255,255,255,0.18); }
+  body.feel-water-notice #site-footer .footer-col:first-child { border-top: 0; }
+  body.feel-water-notice #site-footer .footer-top { padding: 44px 0 28px; }
+  body.feel-water-notice .svc-hero .container, body.feel-water-notice .area-hero .container { padding-top: 48px; padding-bottom: 360px; }
+  body.feel-water-notice .svc-hero::after, body.feel-water-notice .area-hero::after { top: auto !important; bottom: 100px !important; left: 34px !important; right: 34px !important; width: auto !important; height: 210px; }
+  body.feel-water-notice .svc-hero::before, body.feel-water-notice .area-hero::before { bottom: 44px !important; left: 19px !important; right: 19px !important; width: auto !important; }
+  body.feel-water-notice .svc-hero h1, body.feel-water-notice .area-hero h1, body.feel-water-notice .cg-hero h1, body.feel-water-notice .faq-hero h1, body.feel-water-notice .contact-hero h1 { font-size: clamp(36px, 10vw, 46px); max-width: none; }
+  body.feel-water-notice .svc-hero p, body.feel-water-notice .area-hero p, body.feel-water-notice .cg-hero-subheadline, body.feel-water-notice .faq-hero p, body.feel-water-notice .contact-hero p { max-width: none; font-size: 18px; }
+  body.feel-water-notice .cg-hero .container { padding-top: 48px; padding-bottom: 56px; }
+  body.feel-water-notice .faq-hero, body.feel-water-notice .contact-hero { padding: 48px 0; }
+  body.feel-water-notice .svc-hero-actions { flex-direction: column; align-items: stretch; }
+  body.feel-water-notice .svc-hero-actions .btn-outline-white { justify-content: center; font-size: clamp(22px, 6.4vw, 26px); }
+  body.feel-water-notice .cg-cta-band { padding: 72px 0 64px; }
+  body.feel-water-notice .cg-cta-band h2 { font-size: clamp(32px, 9vw, 42px); max-width: none; }
+  body.feel-water-notice .cg-cta-actions { flex-direction: column; align-items: stretch; }
+  body.feel-water-notice .cg-cta-band .btn-ghost-dark, body.feel-water-notice .cg-cta-band .btn-on-accent { justify-content: center; }
+  body.feel-water-notice .breakdown-table { font-size: 16px; }
+  body.feel-water-notice .area-faq .faq-question { font-size: 21px; }
+  body.feel-water-notice .area-faq .faq-answer-inner { padding-left: 0; }
+}
+
+/* Feedback only on press and hover; nothing moves for people who ask for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  body.feel-water-notice *, body.feel-water-notice *::before, body.feel-water-notice *::after { transition: none !important; animation: none !important; }
+  body.feel-water-notice .btn:active, body.feel-water-notice .quote-form-submit:active, body.feel-water-notice .form-submit:active { transform: none; }
+}
+
+/* ── Stage 4b polish (artificialturf-frisco-001, impeccable v4.7). Refinements of the picked water notice; appended, feel-scoped. ── */
+
+/* Layout (area pages): the intro title gets air under it and the body a reading measure; the local FAQ and About blocks line up with the sheet's left margin like every other notice section (they sat centred in a narrow column); the estimate card gets room to breathe. */
+body.feel-water-notice .area-intro .section-title { margin-bottom: 26px; }
+body.feel-water-notice .area-intro-grid { gap: 56px; align-items: start; }
+body.feel-water-notice .area-faq .container, body.feel-water-notice .area-about-location .container { max-width: var(--max-w) !important; }
+body.feel-water-notice .area-faq .section-title, body.feel-water-notice .area-about-location .section-title { text-align: left !important; margin-bottom: 28px; }
+body.feel-water-notice .area-faq .faq-item, body.feel-water-notice .area-faq [role="list"] { max-width: 900px; }
+body.feel-water-notice .area-services-grid { margin-top: 44px; gap: 24px; }
+body.feel-water-notice .area-services-grid .area-service-card { display: flex; flex-direction: column; align-items: flex-start; }
+body.feel-water-notice .area-services-grid .area-service-card a { margin-top: auto; padding-top: 8px; }
+body.feel-water-notice .area-nearby .areas-grid { margin-top: 40px; }
+body.feel-water-notice .area-cta-card { padding: 36px 30px 30px !important; }
+
+/* Layout (contact): one reply coupon, not a coupon inside a coupon. The outer panel keeps the dashed cut line and takes the scissors mark; the form inside sits flat on it. Empty area slots are hidden. */
+body.feel-water-notice .contact-form-wrap .contact-form { border: 0 !important; padding: 0 !important; background: transparent !important; }
+body.feel-water-notice .contact-form-wrap .contact-form::before { display: none; }
+body.feel-water-notice .contact-form-wrap::before { content: "\2702"; position: absolute; top: -17px; left: 28px; padding: 0 8px; background: var(--wn-paper); color: var(--wn-ink); font-size: 26px; line-height: 1; }
+body.feel-water-notice .contact-main { padding-bottom: 40px; }
+body.feel-water-notice .contact-areas h2 { margin-bottom: 24px; }
+body.feel-water-notice .area-pill:empty { display: none; }
+
+/* Layout (cost guides and service intros): long-form text keeps a reading measure of about 70 characters instead of running the full column; sections get a clear gap between them. */
+body.feel-water-notice .cg-intro p, body.feel-water-notice .cg-section p, body.feel-water-notice .cg-faq-item p, body.feel-water-notice .concern-response { max-width: 52ch; }
+body.feel-water-notice .cg-section h2 { max-width: 30ch; margin-bottom: 18px; }
+body.feel-water-notice .cg-section + .cg-section { margin-top: 56px; }
+body.feel-water-notice .svc-local-intro-body { max-width: 56ch; }
+body.feel-water-notice .area-intro-body { max-width: 56ch; }
+body.feel-water-notice .area-location-blurb { max-width: 56ch; }
+body.feel-water-notice .quote-form-sub, body.feel-water-notice .form-consent, body.feel-water-notice .form-disclaimer { max-width: 62ch; }
+
+/* Layout (FAQ lists): the open/close mark sits at the right edge of each question instead of trailing the text. */
+body.feel-water-notice .svc-faq-question svg, body.feel-water-notice .faq-section .faq-question svg, body.feel-water-notice #faq .faq-question svg { margin-left: auto; flex-shrink: 0; align-self: center; }
+
+/* Typeset: the letterhead wordmark reads at a glance (it was 10px over 15px); small secondary text steps up to an easy size; reading text on area and cost pages one step larger; card and coupon titles get a clear step over body text. */
+body.feel-water-notice #site-nav .nav-logo > span { gap: 12px !important; }
+body.feel-water-notice #site-nav .nav-logo svg { width: 40px; height: 40px; }
+body.feel-water-notice #site-nav .nav-logo > span > span { gap: 4px !important; }
+body.feel-water-notice #site-nav .nav-logo > span > span > span:first-child { font-size: 14px !important; letter-spacing: 0.06em !important; }
+body.feel-water-notice #site-nav .nav-logo > span > span > span:last-child { font-size: 22px !important; }
+body.feel-water-notice .quote-form-sub { font-size: 18px; line-height: 1.6; color: var(--text-mid); }
+body.feel-water-notice .gallery-caption { font-size: 16px; }
+body.feel-water-notice .gallery-note { font-size: 16px; }
+body.feel-water-notice .cg-range-figure-unit { font-size: 16px; }
+body.feel-water-notice .cg-intro p, body.feel-water-notice .cg-section p, body.feel-water-notice .cg-faq-item p { font-size: 19px; line-height: 1.7; }
+body.feel-water-notice .concern-response { font-size: 18px; line-height: 1.7; }
+body.feel-water-notice .concern-question, body.feel-water-notice .concern-item h3 { font-family: var(--font-heading); font-size: 22px; font-weight: 700; line-height: 1.25; margin-bottom: 12px; }
+body.feel-water-notice .area-intro-body { font-size: 19px; line-height: 1.65; }
+body.feel-water-notice .area-location-blurb { font-size: 19px; line-height: 1.7; }
+body.feel-water-notice .area-service-card p { font-size: 18px; line-height: 1.65; }
+body.feel-water-notice .area-cta-card h3 { font-family: var(--font-heading); font-size: 32px; font-weight: 700; line-height: 1.05; margin: 0 0 14px; }
+body.feel-water-notice .area-cta-card p { line-height: 1.6; margin: 0 0 22px; }
+body.feel-water-notice .area-cta-phone { display: inline-flex; align-items: center; gap: 10px; font-size: clamp(22px, 1.9vw, 27px); white-space: nowrap; margin-bottom: 18px; }
+body.feel-water-notice .contact-form-wrap > h2 { font-family: var(--font-heading); font-size: clamp(30px, 3vw, 40px); line-height: 1.05; font-weight: 700; color: var(--color-text); margin: 0 0 30px; }
+body.feel-water-notice .contact-info-header h2 { font-family: var(--font-heading); font-size: 26px; font-weight: 700; line-height: 1.1; }
+body.feel-water-notice .contact-info-value a { white-space: nowrap; font-size: clamp(22px, 6.2vw, 25px); }
+body.feel-water-notice #why-us h4 { font-size: 23px; line-height: 1.2; }
+body.feel-water-notice #why-us h3 { font-size: 23px; line-height: 1.2; }
+body.feel-water-notice #site-footer .footer-bottom, body.feel-water-notice #site-footer .footer-bottom span { font-size: 15px; }
+body.feel-water-notice .stats-band-label { font-size: 15px; color: color-mix(in srgb, var(--white) 84%, transparent); }
+body.feel-water-notice .area-pill { font-size: 18px; }
+body.feel-water-notice p, body.feel-water-notice li { text-wrap: pretty; }
+
+/* Typeset (area pages): the hero phone matches the home hero, a big slate number on a highlighter stroke (it was 16px body text). */
+body.feel-water-notice .area-hero .hero-ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px; }
+body.feel-water-notice .area-hero .hero-ctas p { margin: 0; max-width: none; }
+body.feel-water-notice .area-hero .hero-phone { display: inline-flex; align-items: center; gap: 12px; min-height: 58px; padding: 0 4px; color: var(--wn-ink) !important; font-family: var(--font-body); font-variant-numeric: lining-nums tabular-nums; font-size: clamp(22px, 2.2vw, 28px); font-weight: 700; line-height: 1; background: var(--wn-hl); white-space: nowrap; }
+body.feel-water-notice .area-hero .hero-phone svg { width: 22px; height: 22px; stroke: var(--wn-ink); }
+
+/* Animate: per DESIGN.md nothing animates on load or scroll, so the scroll reveal is off and content is never left faded out (the gallery and form sat at zero opacity in captures). Feedback stays on hover and press: the highlighter stroke and slate fills ease in. The reduced-motion block above still switches all of it off. */
+body.feel-water-notice .reveal, body.feel-water-notice .reveal-group > * { opacity: 1 !important; transform: none !important; transition: none !important; }
+body.feel-water-notice .area-faq .faq-icon, body.feel-water-notice #faq .faq-icon { transition: background-color var(--transition), color var(--transition); }
+body.feel-water-notice .area-card, body.feel-water-notice .area-pill, body.feel-water-notice .faq-cat-link, body.feel-water-notice #site-nav .nav-dropdown-menu a, body.feel-water-notice #site-nav .nav-links a, body.feel-water-notice .svc-faq-question, body.feel-water-notice #faq .faq-question { transition: background-color var(--transition), color var(--transition), box-shadow var(--transition); }
+body.feel-water-notice .area-hero .hero-phone:hover { background: linear-gradient(transparent 20%, color-mix(in srgb, var(--color-accent) 85%, transparent) 20% 92%, transparent 92%); }
+
+/* Polish: the area estimate card was white text on the white coupon (invisible); it now reads ink and grey like the rest of the notice. Dropdown items stay ink on the pale slate tint when hovered. Text selection and the caret take the notice palette. */
+body.feel-water-notice .area-cta-card h3 { color: var(--color-text) !important; }
+body.feel-water-notice .area-cta-card p { color: var(--text-mid) !important; }
+body.feel-water-notice #site-nav .nav-dropdown-menu a:hover, body.feel-water-notice #site-nav .nav-dropdown-menu a:focus-visible, body.feel-water-notice #site-nav .nav-dropdown-menu a[aria-current] { color: var(--color-text); background: var(--wn-tint); }
+body.feel-water-notice ::selection { background: color-mix(in srgb, var(--color-accent) 70%, var(--white)); color: var(--color-text); }
+body.feel-water-notice input, body.feel-water-notice textarea { caret-color: var(--wn-ink); }
+
+/* Harden: headings never break mid-word on phones (they wrap at spaces; only a word longer than the line may split). The phone number and quote button never wrap; between 769px and 1180px the page links move into the menu so the letterhead never overflows. The contact columns may shrink to the screen. */
+body.feel-water-notice h1, body.feel-water-notice h2, body.feel-water-notice h3, body.feel-water-notice h4 { overflow-wrap: break-word; }
+body.feel-water-notice #site-nav .nav-phone, body.feel-water-notice #site-nav .nav-actions .btn { white-space: nowrap; flex-shrink: 0; }
+body.feel-water-notice #site-nav .nav-logo { flex-shrink: 0; }
+@media (min-width: 769px) and (max-width: 1180px) {
+  body.feel-water-notice #site-nav .nav-links { display: none; }
+  body.feel-water-notice #site-nav .nav-actions { margin-left: auto; gap: 22px; }
+  body.feel-water-notice #site-nav .nav-hamburger { display: flex; }
+}
+@media (min-width: 769px) and (max-width: 900px) {
+  body.feel-water-notice #site-nav .nav-phone { font-size: 19px; }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  body.feel-water-notice .area-services-grid.services-grid--3col { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* ── Service and area heroes: the perforated stub under the photo frame is the home hero's tally slot; here it
+   held nothing, so it rendered as an empty bordered box (Frisco review, 2026-11-06). Dropped on these pages and
+   the frame sits a little lower so the space under it matches the space above. ── */
+body.feel-water-notice .svc-hero::before, body.feel-water-notice .area-hero::before { display: none !important; content: none !important; }
+body.feel-water-notice .svc-hero::after, body.feel-water-notice .area-hero::after { bottom: 88px !important; }
+
+/* ── Service pages: the finished-yard photo under the "4 Steps" strip butted against the step text; it gets the
+   feel's standard section gap (Frisco review, 2026-11-06). ── */
+body.feel-water-notice .svc-process .process-result-img { margin-top: 44px; }
+
+/* ── Cost-guide CTA band: the heading and copy are left-aligned here but the button + phone row inherited the
+   template's centring; align the row with the text (Frisco review, 2026-11-06). ── */
+body.feel-water-notice .cg-cta-actions { justify-content: flex-start; }
+@media (max-width: 992px) {
+  body.feel-water-notice .contact-grid { grid-template-columns: minmax(0, 1fr); }
+  body.feel-water-notice .contact-grid > * { min-width: 0; }
+  body.feel-water-notice .area-intro-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 768px) {
+  body.feel-water-notice .area-services-grid.services-grid--3col { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 900px) {
+  body.feel-water-notice .area-intro-body, body.feel-water-notice .area-location-blurb, body.feel-water-notice .cg-intro p, body.feel-water-notice .cg-section p { font-size: 18px; }
+  body.feel-water-notice .area-hero .hero-ctas { flex-direction: column; align-items: stretch; }
+  body.feel-water-notice .area-hero .hero-ctas .btn { width: 100%; justify-content: center; }
+  body.feel-water-notice .area-hero .hero-phone { justify-content: center; width: 100%; }
+  body.feel-water-notice .area-cta-card { padding: 30px 22px 24px !important; }
+  body.feel-water-notice .area-cta-card h3 { font-size: 28px; }
+  body.feel-water-notice .contact-form-wrap > h2 { font-size: clamp(28px, 8vw, 34px); }
+  body.feel-water-notice .area-pill { flex: 1 1 auto; }
+  body.feel-water-notice #site-nav .nav-logo svg { width: 36px; height: 36px; }
+  body.feel-water-notice #site-nav .nav-logo > span > span > span:first-child { font-size: 14px !important; letter-spacing: 0.06em !important; }
+  body.feel-water-notice #site-nav .nav-logo > span > span > span:last-child { font-size: 20px !important; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ═══ Eyebrows (fix 4, 2026-11-06) ═══
+   An eyebrow that rendered blank must not show as an empty bordered pill; the assembler
+   strips such elements from the DOM and this is the belt-and-braces rule for any that remain. */
+[class*="eyebrow"]:empty { display: none !important; }
+/* water-notice draws every eyebrow as an ink pill, but the about hero sits on the primary colour
+   (ink on ink, which read as an empty box on the Dallas sites): paper ink and rule on that surface. */
+body.feel-water-notice #page-content .about-hero .section-eyebrow { color: var(--wn-paper) !important; border-color: var(--wn-paper); box-shadow: inset 0 0 0 2px var(--wn-ink), inset 0 0 0 3px var(--wn-paper); }
+
+/* ═══ Nav wordmark, one-line variant (fix 6, 2026-11-06) ═══
+   Names whose last word is only a corporate suffix ("Acme Roofing Co.") render on one line at
+   desktop (the assembler emits .nav-mark-inline, suffix first in DOM inside a row-reverse flex so the
+   feels' ":first-child = muted line" rules still apply). Below 900px the suffix stacks under the name. */
+@media (max-width: 900px) {
+  .nav-logo .nav-mark-inline { flex-direction: column-reverse !important; align-items: flex-start !important; gap: 2px !important; }
+}
+
+/* ═══ Nav wordmark, one-line variant at every width (fix 8, 2026-11-06) ═══
+   The stack rule above put the suffix ("CO.") back on its own line under 900px, which was the original
+   complaint. Suffix names now stay on ONE line everywhere: the type shrinks (12px name / 10px suffix under
+   900px, 11px / 9px under 420px), the mark may shrink inside the bar instead of wrapping, and the
+   hamburger keeps its room. Specificity (body[class] + two classes + a pseudo-class) outranks every feel's
+   "#site-nav .nav-logo > span > span > span" sizing so the same numbers hold on all four Dallas feels. */
+@media (max-width: 900px) {
+  .nav-logo .nav-mark-inline, body[class] #site-nav .nav-logo .nav-mark-inline { flex-direction: row-reverse !important; align-items: baseline !important; gap: 0.4em !important; flex-wrap: nowrap !important; min-width: 0; }
+  body[class] #site-nav .nav-logo:has(.nav-mark-inline) { flex: 0 1 auto !important; min-width: 0 !important; margin-right: 12px; }
+  body[class] #site-nav .nav-logo .nav-mark-inline > span:last-child { font-size: 12px !important; letter-spacing: 0.06em !important; }
+  body[class] #site-nav .nav-logo .nav-mark-inline > span:first-child { font-size: 10px !important; letter-spacing: 0.12em !important; }
+}
+@media (max-width: 420px) {
+  body[class] #site-nav .nav-logo .nav-mark-inline > span:last-child { font-size: 11px !important; }
+  body[class] #site-nav .nav-logo .nav-mark-inline > span:first-child { font-size: 9px !important; }
+  body[class] #site-nav .nav-logo:has(.nav-mark-inline) svg { width: 28px !important; height: 28px !important; }
+}
+
+
+
+    /* ── AREA PAGE ───────────────────────────────────────────────────────────── */
+    .area-hero { position: relative; background: var(--color-primary) center/cover no-repeat; min-height: 400px; display: flex; align-items: center; }
+    .area-hero::after { content:''; position:absolute; inset:0; background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 100%); }
+    .area-hero .container { position: relative; z-index: 1; padding-top: 80px; padding-bottom: 56px; text-align: center; }
+    .area-hero .section-eyebrow { color: var(--color-accent); }
+    .area-hero h1 { font-size: clamp(28px,5vw,50px); font-weight: 700; color: var(--white); margin-bottom: 14px; }
+    .area-hero p { font-size: 18px; color: rgba(255,255,255,0.85); max-width: 560px; margin: 0 auto 28px; }
+    /* Inline-block children follow the hero's own text-align line by line (centred by default, left in split-hero feels);
+       the number sits in a <p> so it takes the hero paragraph colour each feel already sets. */
+    .area-hero .hero-ctas > * { vertical-align: middle; }
+    .area-hero .hero-ctas p { display: inline-block; max-width: none; margin: 0 0 0 16px; }
+    @media (max-width: 600px) { .area-hero .hero-ctas p { display: block; margin: 14px 0 0; } }
+    .area-hero .hero-phone { color: inherit; font-size: 16px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
+    .area-intro { padding: 72px 0; background: var(--color-bg); }
+    .area-intro-grid { display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: start; }
+    .area-intro-body { font-size: 17px; line-height: 1.8; color: var(--text-mid); }
+    .area-cta-card { background: var(--color-primary); border-radius: var(--radius); padding: 32px 28px; color: var(--white); }
+    .area-cta-card h3 { font-size: 20px; color: var(--white); margin-bottom: 10px; }
+    .area-cta-card p { font-size: 15px; color: rgba(255,255,255,0.8); margin-bottom: 20px; }
+    .area-cta-phone { display: flex; align-items: center; gap: 10px; color: var(--color-accent); font-size: 18px; font-weight: 700; margin-bottom: 14px; text-decoration: none; }
+    .area-services { padding: 72px 0; }
+    .area-services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; margin-top: 36px; }
+    .area-services-grid.services-grid--3col { grid-template-columns: repeat(3, 1fr); }
+    .area-service-card { background: var(--color-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 20px; transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition); }
+    .area-service-card:hover { border-color: var(--color-accent); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+    .area-service-card h3 { font-size: 17px; font-weight: 700; color: var(--color-primary); margin-bottom: 8px; }
+    .area-service-card p { font-size: 14px; color: var(--text-mid); margin-bottom: 14px; line-height: 1.6; }
+    .area-service-card a { font-size: 14px; font-weight: 700; color: var(--color-accent); text-decoration: underline; text-underline-offset: 3px; }
+    .area-testimonials { padding: 72px 0; background: var(--color-bg); }
+    .area-testimonials-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 36px; }
+    .area-testimonial-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow-sm); }
+    /* Item 3: .area-testimonial-stars removed — fake-rating compliance. */
+    .area-testimonial-quote { font-size: 15px; line-height: 1.7; font-style: italic; color: var(--text-mid); margin-bottom: 16px; }
+    .area-testimonial-meta { font-size: 14px; font-weight: 700; color: var(--color-text); }
+    .area-testimonial-location { font-size: 13px; color: var(--text-light); }
+    .area-nearby { padding: 56px 0; }
+    .area-nearby h2 { font-size: 22px; margin-bottom: 20px; }
+    .nearby-pills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .nearby-pill { display: inline-block; padding: 8px 16px; border: 1px solid var(--border); border-radius: 20px; font-size: 14px; color: var(--text-mid); text-decoration: none; transition: background var(--transition), color var(--transition), border-color var(--transition); }
+    .nearby-pill:hover { background: var(--color-primary); color: var(--white); border-color: var(--color-primary); }
+
+    /* CTA band */
+    #cta-band { background: var(--color-accent); padding: 60px 0; text-align: center; }
+    #cta-band h2 { font-family: var(--font-heading); font-size: clamp(24px,4vw,36px); font-weight: 700; color: var(--white); margin-bottom: 12px; }
+    #cta-band p { font-size: 17px; color: rgba(255,255,255,0.9); margin-bottom: 28px; }
+
+    /* ── Area local FAQ ─────────────────────────────────────────────── */
+    .area-faq { padding: 56px 0; background: var(--color-bg); }
+    .faq-item { border-bottom: 1px solid var(--border); background: var(--white); margin-bottom: 4px; border-radius: var(--radius); overflow: hidden; }
+    .faq-question { width: 100%; text-align: left; background: none; border: none; padding: 20px 24px; font-size: 16px; font-weight: 600; color: var(--color-text); cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; transition: background var(--transition); font-family: inherit; }
+    .faq-question:hover { background: var(--color-bg); }
+    .faq-icon { width: 28px; height: 28px; border-radius: 50%; background: var(--color-bg); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 18px; font-weight: 300; color: var(--color-primary); transition: transform 0.25s, background 0.15s; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); background: var(--color-primary); color: var(--white); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.35s cubic-bezier(0.25, 1, 0.5, 1), padding 0.2s; }
+    .faq-answer-inner { padding: 0 24px 20px; font-size: 15px; color: var(--text-mid); line-height: 1.75; }
+    .faq-item.open .faq-answer { max-height: 2000px; }
+
+    /* ── About-the-area prose section (Item 6) ───────────────────────── */
+    .area-about-location { padding: 72px 0; }
+    .area-about-location .container { max-width: 720px; }
+    .area-about-location .section-eyebrow { display: block; margin-bottom: 12px; }
+    .area-about-location .section-title { font-size: clamp(28px, 4vw, 38px); line-height: 1.15; margin: 0 0 24px; }
+    .area-location-blurb { font-size: 17px; line-height: 1.75; color: var(--text-mid); margin: 0; }
+    .area-location-blurb + .area-location-blurb { margin-top: 18px; }
+    @media (min-width: 768px) {
+      .area-about-location { padding: 96px 0; }
+      .area-location-blurb + .area-location-blurb { margin-top: 22px; }
+    }
+
+    @media(max-width:992px){ .area-intro-grid{grid-template-columns:1fr;} .area-services-grid{grid-template-columns:1fr 1fr;} }
+    @media(max-width:768px){ .area-services-grid{grid-template-columns:1fr;} .area-testimonials-grid{grid-template-columns:1fr;} }
+  </style>
+  
+</head>
+<body class="pattern-band-rule feel-water-notice order-proof-first">
+  
+<a href="#page-content" class="skip-link">Skip to main content</a>
+<header id="site-nav" role="banner" class="nav-variant-bar-light-rule">
+  <div class="container">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="/" class="nav-logo" aria-label="Go to homepage"><span style="display:flex;align-items:center;gap:10px;line-height:1"><svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="flex-shrink:0"><circle cx="16" cy="16" r="15" fill="#2E5A6E"/>
+  <path d="M20.77 13.31 18.32 13.52 17.88 11.46H14.22V15.38H20.10V17.81H14.22V20.54H16.51V23.00H9.83V20.54H11.34V11.46H9.83V9.00H20.34Z" fill="#FFFFFF"/></svg><span style="display:flex;flex-direction:column;gap:1px;flex-shrink:1"><span style="font-family:'Zilla Slab',serif;font-size:10px;font-weight:700;letter-spacing:0.14em;color:rgba(255,255,255,0.75);line-height:1;white-space:nowrap">FRISCO ARTIFICIAL TURF</span><span style="font-family:'Zilla Slab',serif;font-size:15px;font-weight:800;letter-spacing:0.06em;color:#FFFFFF;line-height:1;white-space:nowrap">PROS</span></span></span></a>
+      <ul class="nav-links" role="list">
+        <li class="nav-dropdown">
+          <button class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false" onclick="toggleServicesMenu(event)">
+            Services
+            <svg class="nav-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <ul class="nav-dropdown-menu" role="list">
+            <li><a href="/services/backyard-artificial-lawns/" onclick="closeServicesMenu()">Backyard Artificial Lawns</a></li>
+            <li><a href="/services/pet-turf/" onclick="closeServicesMenu()">Pet Turf</a></li>
+            <li><a href="/services/backyard-putting-greens/" onclick="closeServicesMenu()">Backyard Putting Greens</a></li>
+            <li><a href="/services/pool-surround-turf/" onclick="closeServicesMenu()">Pool Surround Turf</a></li>
+            <li><a href="/services/playground-and-play-area-turf/" onclick="closeServicesMenu()">Playground and Play Area Turf</a></li>
+            <li><a href="/services/bocce-and-backyard-sport-turf/" onclick="closeServicesMenu()">Bocce and Backyard Sport Turf</a></li>
+          </ul>
+        </li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+        <li><a href="/blog/">Blog</a></li><li><a href="/cost-guides/how-much-does-turf-cost-in-frisco-tx/">Price Guide</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="tel:+15550100100" class="nav-phone" aria-label="Call us"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.15 12 19.79 19.79 0 011.1 3.18 2 2 0 013.1 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+1 (555) 010-0100</a>
+        <a href="/contact/" class="btn btn-primary">Get a Quote</a>
+      </div>
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" onclick="toggleMenu(this)"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+  <nav class="nav-mobile-menu" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="/services/backyard-artificial-lawns/" onclick="closeMenu()">Backyard Artificial Lawns</a>
+    <a href="/services/pet-turf/" onclick="closeMenu()">Pet Turf</a>
+    <a href="/services/backyard-putting-greens/" onclick="closeMenu()">Backyard Putting Greens</a>
+    <a href="/services/pool-surround-turf/" onclick="closeMenu()">Pool Surround Turf</a>
+    <a href="/services/playground-and-play-area-turf/" onclick="closeMenu()">Playground and Play Area Turf</a>
+    <a href="/services/bocce-and-backyard-sport-turf/" onclick="closeMenu()">Bocce and Backyard Sport Turf</a>
+    <a href="/about/" onclick="closeMenu()">About</a>
+    <a href="/faq/" onclick="closeMenu()">FAQ</a>
+    <a href="/blog/" onclick="closeMenu()">Blog</a>
+    <a href="/cost-guides/how-much-does-turf-cost-in-frisco-tx/" onclick="closeMenu()">Price Guide</a>
+    <a href="/contact/" onclick="closeMenu()">Contact</a>
+    <a href="tel:+15550100100" onclick="closeMenu()" style="display:flex;align-items:center;gap:8px;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.15 12 19.79 19.79 0 011.1 3.18 2 2 0 013.1 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+1 (555) 010-0100</a>
+    <a href="/contact/" class="btn btn-primary mobile-cta" onclick="closeMenu()">Get a Quote</a>
+  </nav>
+</header>
+
+<main id="page-content" tabindex="-1" style="margin-top:80px;" aria-label="Service area page">
+
+  <!-- ── Area Hero ─────────────────────────────────────────────────────── -->
+  <section class="area-hero" style="background-image:url('/images/hero_bg.webp');">
+    <div class="container">
+      <span class="section-eyebrow">Service Area</span>
+      <h1>Artificial Grass in Allen, TX for Busy Backyards</h1>
+      <p class="area-coords" aria-hidden="true">33.1032&deg; N &middot; -96.6706&deg; W</p>
+      <p>Turf for Allen yards shared with kids, dogs and a pool, on a base built to drain.</p>
+      <div class="hero-ctas">
+        <a href="/contact/" class="btn btn-primary">Get a Quote</a>
+        <p><a href="tel:+15550100100" class="hero-phone"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.15 12 19.79 19.79 0 011.1 3.18 2 2 0 013.1 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+1 (555) 010-0100</a></p>
+      </div>
+      </div>
+  </section>
+
+  <!-- ── Local Intro ────────────────────────────────────────────────────── -->
+  <section class="area-intro">
+    <div class="container">
+      <div class="area-intro-grid">
+        <div>
+          <span class="section-eyebrow">Allen</span>
+          <h2 class="section-title" style="max-width:none;">Frisco Artificial Turf Pros in Allen</h2>
+          <p class="area-intro-body">Allen sits in Collin County, east of Frisco, and its backyards see a lot of use from kids, dogs and summer pool days. We install artificial turf across Allen on a compacted stone base built to drain.</p>
+        </div>
+        <div class="area-cta-card">
+          <h3>Get an Estimate</h3>
+          <p>We serve Allen and surrounding neighborhoods. Let us know what the yard needs and we'll write up a quote.</p>
+          <a href="tel:+15550100100" class="area-cta-phone">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.15 12 19.79 19.79 0 011.1 3.18 2 2 0 013.1 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            +1 (555) 010-0100
+          </a>
+          <a href="/contact/" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Services in this Area ─────────────────────────────────────────── -->
+  <section class="area-services section-pad" aria-labelledby="area-services-heading">
+    <div class="container">
+      <span class="section-eyebrow">Our Services</span>
+      <h2 id="area-services-heading" class="section-title">Services Available in Allen</h2>
+      <div class="area-services-grid services-grid--3col">
+<div class="area-service-card">
+  <h3>Backyard Artificial Lawns in Allen</h3>
+  <p>A full lawn of artificial grass over a compacted stone base, built to drain and to look the same in January as it does in June.</p>
+  <a href="/services/backyard-artificial-lawns/">Learn more →</a>
+</div>
+<div class="area-service-card">
+  <h3>Pet Turf in Allen</h3>
+  <p>Pet turf for dog runs and the parts of the yard the dogs have worn to mud, on a base that drains through and rinses clean.</p>
+  <a href="/services/pet-turf/">Learn more →</a>
+</div>
+<div class="area-service-card">
+  <h3>Backyard Putting Greens in Allen</h3>
+  <p>Outdoor, indoor and short-game putting greens on a graded base, sized to a corner of the backyard or most of it.</p>
+  <a href="/services/backyard-putting-greens/">Learn more →</a>
+</div>
+<div class="area-service-card">
+  <h3>Pool Surround Turf in Allen</h3>
+  <p>Turf around the pool deck in place of the splashed-out grass and beds that never quite recover.</p>
+  <a href="/services/pool-surround-turf/">Learn more →</a>
+</div>
+<div class="area-service-card">
+  <h3>Playground and Play Area Turf in Allen</h3>
+  <p>Turf under swing sets, playsets and the corner the kids live in, with a turf grade chosen for how the space gets used.</p>
+  <a href="/services/playground-and-play-area-turf/">Learn more →</a>
+</div>
+<div class="area-service-card">
+  <h3>Bocce and Backyard Sport Turf in Allen</h3>
+  <p>Short, dense turf for a bocce lane or a practice strip, laid on a level stone base to help the roll stay true through the summer.</p>
+  <a href="/services/bocce-and-backyard-sport-turf/">Learn more →</a>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Testimonials ───────────────────────────────────────────────────── -->
+
+  <!-- ── Nearby Areas ───────────────────────────────────────────────────── -->
+  <section class="area-nearby section-pad">
+    <div class="container">
+      <span class="section-eyebrow">Where Else We Work</span>
+      <h2 class="section-title">Also Serving Nearby Areas</h2>
+      <div class="areas-grid">
+<a href="/areas/the-colony/" class="area-card" data-area="The Colony"><span class="area-card-name">The Colony</span><svg class="area-card-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+<a href="/areas/little-elm/" class="area-card" data-area="Little Elm"><span class="area-card-name">Little Elm</span><svg class="area-card-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+<a href="/areas/plano/" class="area-card" data-area="Plano"><span class="area-card-name">Plano</span><svg class="area-card-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Local FAQs ────────────────────────────────────────────────────── -->
+  <section class="area-faq" aria-labelledby="area-faq-heading" style="">
+    <div class="container" style="max-width:760px;">
+      <span class="section-eyebrow">FAQs</span>
+      <h2 id="area-faq-heading" class="section-title" style="text-align:center;margin-bottom:32px;">Common Questions in Allen</h2>
+      <div role="list">
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+            <span>How much does artificial grass cost in Allen?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">In Allen, turf typically runs $10 to $12 a square foot installed and putting greens typically $15 to $25. Your backyard's size, base prep and turf grade set the number.</div>
+          </div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+            <span>Do you install turf in every part of Allen?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Yes, we install backyard turf across Allen.</div>
+          </div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+            <span>Is artificial turf a good idea for an Allen yard with kids?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">It can be. A play corner on turf stays green and dries sooner after rain than bare dirt. Turf gets warm in full sun, so shade or a rinse before playtime helps in July and August.</div>
+          </div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+            <span>Will turf help with a muddy dog run?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">It's one of the more common reasons people look at turf. A base built to drain through the clay can help the run handle rain better than bare dirt, though slope and heavy storms still play a part.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Item 6: About {Area} — location-context blurb near the bottom ───── -->
+  <section class="area-about-location" aria-labelledby="about-location-heading">
+    <div class="container">
+      <span class="section-eyebrow">About the Area</span>
+      <h2 id="about-location-heading" class="section-title">About Allen</h2>
+      <p class="area-location-blurb">Allen sits in Collin County, east of Frisco, and most of its neighborhoods were built with families in mind, with fenced backyards that work hard through the school year and harder over summer break.</p>
+<p class="area-location-blurb">If your yard is shared with kids, dogs or a pool, the grass around them is usually the first to wear thin, and that's where turf can make a real difference. A play corner, a dog run or the strip around the pool deck can go to turf while the rest stays as it is.</p>
+<p class="area-location-blurb">The ground here is the same heavy clay found across the county. The base matters. We compact crushed stone with a slope so rain has a path out, and we pick a turf grade for how the space is used.</p>
+<p class="area-location-blurb">A yard in Allen typically lands at $10 to $12 a square foot installed for turf, or $15 to $25 for a putting green. Size, base prep and turf grade decide the final figure. Tell us about the space and we'll follow up with a written quote.</p>
+    </div>
+  </section>
+
+  <!-- ── CTA Band ───────────────────────────────────────────────────────── -->
+  <!-- Inline quote form — money pages must convert on-page (review Angle 1) -->
+  <section class="quote-form-section" aria-labelledby="quote-form-heading">
+    <div class="container">
+      <div class="quote-form-card form-variant-inline-panel">
+        <h2 id="quote-form-heading">Get a Quote in Allen</h2>
+        <p class="quote-form-sub">A few details about your yard help us reply with something useful.</p>
+        <form class="quote-form" action="https://leads-proxy.jeongpark95.workers.dev" method="POST" name="quote-lead" data-leads-form>
+          <input type="hidden" name="run_id" value="artificialturf-frisco-001">
+          <div class="hp-field" aria-hidden="true"><input type="text" name="company_website" tabindex="-1" autocomplete="off"></div>
+          <input type="hidden" name="form_ts" value="">
+          <input type="hidden" name="source_page" value="https://friscoartificialturfpros.com/areas/allen/">
+          <div class="quote-form-row">
+            <input type="text" name="name" placeholder="Your name" required autocomplete="name" aria-label="Full name">
+            <input type="tel" name="phone" placeholder="Phone number" required autocomplete="tel" aria-label="Phone number">
+          </div>
+          <div class="quote-form-row">
+            <input type="email" name="email" placeholder="Email (optional)" autocomplete="email" aria-label="Email address">
+            <input type="text" name="message" placeholder="What do you need done?" aria-label="Project details">
+          </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAEueQ67CT2zJIl9y" data-size="flexible" data-theme="light"></div>
+          <input type="hidden" name="cf-sitekey" value="0x4AAAAAAEueQ67CT2zJIl9y">
+          <button type="submit" class="quote-form-submit">Request a Quote</button>
+          <p class="form-consent">By sending this, you agree we can contact you about your project. <a href="/privacy/">Privacy Policy</a></p>
+        </form>
+        <div class="form-thank-you" aria-live="polite">
+          <div class="form-thank-you-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></div>
+          <h3>We&rsquo;ve got your request!</h3>
+          <p>Thanks for sending this. We'll reply about your project. Need to talk sooner? Call <a href="tel:+15550100100">+1 (555) 010-0100</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta-band" aria-labelledby="cta-heading">
+    <div class="container">
+      <h2 id="cta-heading">Ready for a Yard You Can Use Year Round?</h2>
+      <p>Tell us which part of the yard you're thinking about and roughly how big it is, and we'll put a price for it in writing.</p>
+      <a href="/contact/" class="cta-band-btn">Get a Quote</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- Item 7: LocalBusiness (self-contained per Google validator; @id keeps the entity linked to home) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://friscoartificialturfpros.com/#organization",
+  "name": "Frisco Artificial Turf Pros",
+  "image": "https://friscoartificialturfpros.com/images/logo.png",
+  "url": "https://friscoartificialturfpros.com/",
+  "telephone": "+1 (555) 010-0100",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Frisco",
+    "addressRegion": "TX",
+    "postalCode": "75034",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Allen",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Allen",
+      "addressRegion": "TX",
+      "postalCode": "75002",
+      "addressCountry": "US"
+    }
+  }
+}
+</script>
+
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-top"><div class="container"><div class="footer-grid">
+    <div class="footer-col"><h4><a href="/" class="footer-brand-link">Frisco Artificial Turf Pros</a></h4><p>Artificial turf installed for homes in Frisco, The Colony, Little Elm, Plano and Allen, from pet turf and play areas to pool surrounds and putting greens.</p><address class="footer-nap" style="font-style:normal;"><span>Frisco, Texas</span><br><a href="tel:+15550100100" style="color:rgba(255,255,255,0.65);">+1 (555) 010-0100</a></address></div>
+    <div class="footer-col"><h4>Services</h4><ul>
+            <li><a href="/services/backyard-artificial-lawns/">Backyard Artificial Lawns</a></li>
+            <li><a href="/services/pet-turf/">Pet Turf</a></li>
+            <li><a href="/services/backyard-putting-greens/">Backyard Putting Greens</a></li>
+            <li><a href="/services/pool-surround-turf/">Pool Surround Turf</a></li>
+            <li><a href="/services/playground-and-play-area-turf/">Playground and Play Area Turf</a></li>
+            <li><a href="/services/bocce-and-backyard-sport-turf/">Bocce and Backyard Sport Turf</a></li>
+</ul></div>
+    <div class="footer-col"><h4>Inquiry</h4><ul><li><a href="/contact/">Request Quote</a></li><li><a href="/about/">About Us</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Service</a></li></ul></div>
+    <div class="footer-col"><h4>Serving Frisco and Nearby Cities</h4><ul><li><a href="/areas/the-colony/">The Colony</a></li><li><a href="/areas/little-elm/">Little Elm</a></li><li><a href="/areas/plano/">Plano</a></li><li><a href="/areas/allen/">Allen</a></li></ul></div>
+  </div></div></div>
+  <div class="container"></div>
+  <div class="container"><div class="footer-bottom"><span>© 2026 Frisco Artificial Turf Pros. All rights reserved.</span><span>Frisco, Texas, United States</span></div></div>
+</footer>
+
+<a id="mobile-cta" href="tel:+15550100100" aria-label="Call us now"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.15 12 19.79 19.79 0 011.1 3.18 2 2 0 013.1 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Call Us: +1 (555) 010-0100</a>
+
+<script>
+  function toggleFaq(btn){var item=btn.closest('.faq-item');var isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(function(el){el.classList.remove('open');el.querySelector('.faq-question').setAttribute('aria-expanded','false');});if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true');}}
+  function toggleMenu(btn){var m=document.getElementById('mobile-nav');m.classList.toggle('open');btn.setAttribute('aria-expanded',String(m.classList.contains('open')));}
+  function closeMenu(){var m=document.getElementById('mobile-nav');m.classList.remove('open');var b=document.querySelector('.nav-hamburger');if(b)b.setAttribute('aria-expanded','false');}
+  window.addEventListener('scroll',function(){var n=document.getElementById('site-nav');n.style.boxShadow=window.scrollY>10?'0 2px 16px rgba(0,0,0,0.25)':'0 2px 12px rgba(0,0,0,0.2)';},{passive:true});
+  /* ── SERVICES DROPDOWN ── */
+  function toggleServicesMenu(e) {
+    e.stopPropagation();
+    var dd = document.querySelector('.nav-dropdown');
+    if (!dd) return;
+    var open = dd.hasAttribute('data-open');
+    dd.toggleAttribute('data-open', !open);
+    dd.querySelector('.nav-dropdown-trigger').setAttribute('aria-expanded', String(!open));
+    if (!open) {
+      var firstLink = dd.querySelector('.nav-dropdown-menu a');
+      if (firstLink) requestAnimationFrame(function() { firstLink.focus(); });
+    }
+  }
+  function closeServicesMenu(returnFocus) {
+    var dd = document.querySelector('.nav-dropdown');
+    if (!dd || !dd.hasAttribute('data-open')) return;
+    dd.removeAttribute('data-open');
+    var trigger = dd.querySelector('.nav-dropdown-trigger');
+    trigger.setAttribute('aria-expanded', 'false');
+    if (returnFocus) trigger.focus();
+  }
+  (function() {
+    var evt = ('ontouchstart' in document.documentElement) ? 'touchstart' : 'click';
+    document.addEventListener(evt, function(e) {
+      var dd = document.querySelector('.nav-dropdown');
+      if (dd && !dd.contains(e.target)) closeServicesMenu(false);
+    });
+  })();
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeServicesMenu(true); });
+</script>
+
+<script>
+  /* Leads form: async submit, response-gated thank-you, inline error state */
+  (function(){
+    document.querySelectorAll('form[data-leads-form]').forEach(function(form){
+      var ts = form.querySelector('input[name="form_ts"]');
+      if(ts){ ts.value = String(Date.now()); }
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        var params = new URLSearchParams(new FormData(form)).toString();
+        var btn = form.querySelector('[type="submit"]');
+        var btnLabel = btn ? btn.textContent : '';
+        if(btn){ btn.disabled = true; btn.textContent = 'Sending\u2026'; }
+        var prevErr = form.querySelector('.form-error');
+        if(prevErr){ prevErr.style.display = 'none'; }
+        function showThankYou(){
+          form.style.display = 'none';
+          var ty = form.parentElement.querySelector('.form-thank-you');
+          if(ty){ ty.style.display = 'flex'; }
+        }
+        function showError(msg){
+          if(btn){ btn.disabled = false; btn.textContent = btnLabel; }
+          var err = form.querySelector('.form-error');
+          if(!err){
+            err = document.createElement('p');
+            err.className = 'form-error';
+            err.setAttribute('role', 'alert');
+            form.appendChild(err);
+          }
+          err.innerHTML = msg || 'Something went wrong sending your request. Please try again, or call <a href="tel:+15550100100">+1 (555) 010-0100</a>.';
+          err.style.display = 'block';
+          /* Turnstile tokens are single-use: reset the widget so a retry gets a fresh one. */
+          var tw = form.querySelector('.cf-turnstile');
+          if(tw && window.turnstile){ try { window.turnstile.reset(tw); } catch(_){} }
+        }
+        /* Managed Turnstile fills a hidden cf-turnstile-response input once the check passes. */
+        var tsToken = form.querySelector('input[name="cf-turnstile-response"]');
+        if(!tsToken || !tsToken.value){
+          showError('Please wait a moment for the security check to finish, then try again.');
+          return;
+        }
+        fetch(form.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: params,
+          keepalive: true
+        }).then(function(res){
+          if(!res.ok){ throw new Error('HTTP ' + res.status); }
+          return res.json().then(function(data){
+            if(data && data.ok === false){ throw new Error(data.error || 'rejected'); }
+          }, function(){ /* 2xx but non-JSON (legacy script) - treat as success */ });
+        }).then(showThankYou, function(){ showError(); });
+      });
+    });
+  })();
+</script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</body>
+</html>
