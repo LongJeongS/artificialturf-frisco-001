@@ -7,6 +7,7 @@
     "faq/index.html",
     "terms/index.html",
     "privacy/index.html",
+    "gallery/index.html",
     "services/backyard-artificial-lawns/index.html",
     "services/pet-turf/index.html",
     "services/backyard-putting-greens/index.html",
@@ -20,8 +21,8 @@
     "cost-guides/how-much-does-turf-cost-in-frisco-tx/index.html",
     "cost-guides/backyard-putting-green-cost-per-square-foot/index.html"
   ],
-  "total_pages": 18,
-  "image_count": 17,
+  "total_pages": 19,
+  "image_count": 36,
   "all_urls": [
     "/",
     "/about/",
@@ -29,6 +30,7 @@
     "/faq/",
     "/terms/",
     "/privacy/",
+    "/gallery/",
     "/services/backyard-artificial-lawns/",
     "/services/pet-turf/",
     "/services/backyard-putting-greens/",
@@ -47,5 +49,5 @@
     "/blog/best-time-to-install-artificial-turf-frisco/",
     "/blog/weeds-and-drainage-artificial-grass-frisco/"
   ],
-  "assembled_at": "2026-11-17T16:07:21.015185+00:00"
+  "assembled_at": "2026-11-17T19:11:24.173825+00:00"
 }
